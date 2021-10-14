@@ -1,5 +1,6 @@
 /**
- * Ejercicio 2, guardar nombre en variable y mostrar en pantalla
+ * Tema 2
+ *  Ejercicio 2, guardar nombre en variable y mostrar en pantalla
  *
  * @author Natalia Castillo Muñoz
  */
