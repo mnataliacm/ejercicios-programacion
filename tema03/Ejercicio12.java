@@ -15,7 +15,7 @@ public class Ejercicio12 {
     System.out.print("¿que nota quieres sacar en el trimestre? ");
     double notaTrimestre = Double.parseDouble(System.console().readLine());
     
-    double nota = ((notaTrimestre*100)-(examen*40))/60;
+    double nota = ((notaTrimestre*1)-(examen*0.4))/0.6;
     
     System.out.printf(" Para tener "+notaTrimestre+" necesitas sacar en el segundo examen un " +nota);
     
