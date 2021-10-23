@@ -6,8 +6,6 @@
  *
  * @author Natalia Castillo Muñoz
  */
-import java.util.*;
-
 public class Ejercicio09 {
   public static void main(String[] args) {
     
