@@ -1,7 +1,7 @@
 # Ejercicios de 1º DAM de Programación
-### Programando en Java
+## Programando en Java
 
-Tema 01 ✔
+### Tema 01 ✔
 * Mostrar datos por pantalla
 * Usar colores
 * Hacer horario de clase
@@ -12,7 +12,7 @@ Tema 01 ✔
 
 ![foto1](https://user-images.githubusercontent.com/74043250/139556816-8cdf7f78-3814-4932-9c41-92bb756f4269.png)
 
-Tema 02 ✔
+### Tema 02 ✔
 * Variables
 * Enteros
 * Decimales
@@ -20,15 +20,15 @@ Tema 02 ✔
 * Primitivos
 * Operadores aritméticos
 
-Tema 03 ✔
+### Tema 03 ✔
 * Lectura de datos desde teclado: texto y números
 * La clase Scanner
 
-Tema 04 ✔
+### Tema 04 ✔
 * Sentencia condicional: if y switch
 * Llaves egipcias
 * Operadores lógicos
 
-Tema 05
+### Tema 05
 * Bucles
 * 
