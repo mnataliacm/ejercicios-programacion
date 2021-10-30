@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * Tema 4
  * Ejercicio 1
@@ -8,40 +10,38 @@
 public class Ejercicio01 {
   public static void main(String[] args) {
     
+    String dia;
+    Scanner s = new Scanner(System.in);
+
     System.out.println("__Asignatura que tienes a 1ª hora el dia solicitado__");
-    System.out.print("Introduce el número que corresponde al día que quieras consultar: ");
+    System.out.print("Introduce el día que quieras consultar: ");
+    
+
+    dia = s.nextLine().toLowerCase();
   
-    int dia = Integer.parseInt(System.console().readLine());
-    
-    String asignatura;
-    
     switch (dia) {
-      case 1:
-        asignatura = "El lunes tienes a primera hora Programación";
+      case "lunes":
+      case "martes":
+        System.out.println("Programación");
         break;
-      case 2:
-        asignatura = "El martes tienes a primera hora Programación";
+      case "miercoles":
+      case "miércoles":
+        System.out.println("Sistemas Informáticos");
         break;
-      case 3:
-        asignatura = "El miercoles tienes a primera hora Sistemas Informáticos";
+      case "jueves":
+        System.out.println("Programación");
         break;
-      case 4:
-        asignatura = "El jueves tienes a primera hora Programación";
+      case "viernes":
+        System.out.println("Sistemas Informáticos");
         break;
-      case 5:
-        asignatura = "El viernes tienes a primera hora Sistemas Informáticos";
-        break;
-      case 6:
-        asignatura = "El sábado no hay clase";
-        break;
-      case 7:
-        asignatura = "El domingo no hay clase";
+      case "sabado":
+      case "sábado":
+      case "domingo":
+        System.out.println("No hay clase");
         break;
       default:
-        asignatura = "ERROR: debes usar un número del 1 al 7";
+        System.out.println("No has introducido ningún día");
     }
-
-    System.out.println(asignatura);
   }
 }
 

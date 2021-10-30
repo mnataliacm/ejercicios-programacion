@@ -17,7 +17,6 @@ public class Ejercicio14 {
     
     if ((par == 0) && (dividir == 0)){
       System.out.print("El número es par y divisible entre 5.");
-      
     } else if (par == 0) {
       System.out.print("El número es par pero no divisible entre 5");
     } else if (dividir == 0) {

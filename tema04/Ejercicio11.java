@@ -18,6 +18,6 @@ public class Ejercicio11 {
     int segundos = (24-hora)*3600 + (60-minutos)*60;
     
     System.out.print("Hasta medianoche faltan: " + segundos + " segundos");
-      
+     
   }
 }

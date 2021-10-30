@@ -8,7 +8,7 @@
 public class Ejercicio9 {
   public static void main(String[] args) {
     
-    System.out.println("---Calcular el volumen de un cono---");
+    System.out.println("---Calcular el volumen de un cono en centimetros---");
     
     String numero;
     System.out.print("Introduce el radio: ");
@@ -22,7 +22,7 @@ public class Ejercicio9 {
     double pi = 3.14159;
     double volumen = pi*(radio*radio)*altura/3;
     
-    System.out.printf("El volumen del cono es: %.2f", volumen);
+    System.out.printf("El volumen del cono es: %.2f cm³", volumen);
     
   }
 }

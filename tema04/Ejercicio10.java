@@ -40,7 +40,5 @@ public class Ejercicio10 {
     }else if ((dia >= 19) && (dia <=29) && ("febrero".equals(mes)) || (dia >= 1) && (dia <= 20) && ("marzo".equals(mes))) {
       System.out.print("Tu horoscopo es Piscis");
     }
-    
-
   }
 }

@@ -16,9 +16,11 @@ public class Ejercicio06 {
     
     double g = 9.81;
     
-    double tiempo = Math.sqrt(2*h/g);
-    
-    System.out.printf("Tarda %.2f segundos",tiempo);
-    
+    if (h <= 0) {
+      System.out.println("Con estos datos no hay solución");
+    } else {
+      double tiempo = Math.sqrt(2*h/g);
+      System.out.printf("Tarda %.2f segundos",tiempo);
+    }
   }
 }

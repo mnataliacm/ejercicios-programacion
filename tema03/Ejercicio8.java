@@ -15,10 +15,10 @@ public class Ejercicio8 {
     String numero = System.console().readLine();
     int horas = Integer.parseInt(numero);
     
-    int euros = 12;
-    int salario = (horas*euros);
+    double euros = 12;
+    double salario = (horas*euros);
     
-    System.out.println(" El salario de esta semana es de: " + salario + " euros");
+    System.out.printf(" El salario de esta semana es de: %.2f euros" ,salario);
     
   }
 }

@@ -19,10 +19,10 @@ public class Ejercicio02 {
       System.out.println("!!Buenas tardes!!");
     } else if ((h >= 21) && (h <= 24)) {
       System.out.println("!!Buenas noches!!");
-    } else if ((h >= 1) && (h <= 5)) {
+    } else if ((h >= 0) && (h <= 5)) {
       System.out.println("!!Buenas noches!!");
     } else {
-      System.out.println("La hora indicada no es correcta, debe elegir entre 11 y 24");
+      System.out.println("La hora indicada no es correcta, debe elegir entre 0 y 24");
     }
     
   }
