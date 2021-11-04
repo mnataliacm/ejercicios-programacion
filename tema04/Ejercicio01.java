@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Tema 4
  * Ejercicio 1
@@ -11,13 +9,12 @@ public class Ejercicio01 {
   public static void main(String[] args) {
     
     String dia;
-    Scanner s = new Scanner(System.in);
 
     System.out.println("__Asignatura que tienes a 1ª hora el dia solicitado__");
     System.out.print("Introduce el día que quieras consultar: ");
     
 
-    dia = s.nextLine().toLowerCase();
+    dia = System.console().readLine().toLowerCase();
   
     switch (dia) {
       case "lunes":

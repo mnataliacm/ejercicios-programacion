@@ -60,7 +60,7 @@ public class Ejercicio23 {
         break;
       default:
         System.out.println("El código de descuento introducido es incorrecto");
-        System.exit(0);
+        break;
     }
     double baseiva = base + tipoiva;
     double total = baseiva + descuento;

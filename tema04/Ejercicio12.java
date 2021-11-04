@@ -27,6 +27,7 @@ public class Ejercicio12 {
     } else {
       System.out.println("Lo siento, respuesta incorrecta.");
     }
+    /*resultado = respuesta.equals("a") ? resultado + 1 */
     
     System.out.println(" Pregunta nº 2: ¿Qué simbolo ponemos delante del nombre de la Foreing Key?:");
     System.out.println("     a) +");

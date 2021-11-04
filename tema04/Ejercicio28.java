@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Tema 4
  * Ejercicio 28
@@ -13,13 +11,12 @@ public class Ejercicio28 {
 
     String jugador1, jugador2;
     String resultado = "";
-    Scanner s = new Scanner(System.in);
 
     System.out.println("___PIEDRA, PAPEL O TIJERA___");
     System.out.print("Turno del jugador 1 (piedra, papel o tijera): ");
-    jugador1 = s.nextLine().toLowerCase();
+    jugador1 = System.console().readLine().toLowerCase();
     System.out.print("Turno del jugador 2 (piedra, papel o tijera): ");
-    jugador2 = s.nextLine().toLowerCase();
+    jugador2 = System.console().readLine().toLowerCase();
     
     if (jugador1.equals(jugador2)) {
       resultado = "Empate";

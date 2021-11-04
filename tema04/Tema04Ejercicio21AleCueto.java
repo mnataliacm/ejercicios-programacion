@@ -17,7 +17,7 @@ public class Tema04Ejercicio21AleCueto {
 
     double media = ((nota1 + nota2) / 2);
 
-    /*if (media < 5) {
+    if (media < 5) {
       System.out.print("Debes presentarte a la recuperación, dinos cuanto has sacado: ");
       double recuperacion = Double.parseDouble(System.console().readLine());
       if (recuperacion < 5) {
@@ -27,18 +27,6 @@ public class Tema04Ejercicio21AleCueto {
       }
     } else {
       System.out.printf("Felicidades, estás aprobado con un %.2f\n", media);
-    }*/
-
-    if (media < 5) {
-      System.out.print("¿Que nota has sacado en la recuperación? (apto/no apto): ");
-      String recuperacion = System.console().readLine();
-      if (recuperacion.equals("apto")) {
-        System.out.println("Tu nota de Programación es 5");
-      } else {
-        System.out.printf("Tu nota de Programación es: %.1f\n", media);
-      }
-    } else {
-      System.out.printf("Tu nota de Programación es: %.1f\n", media);
     }
   }
 }

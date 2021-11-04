@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Tema 4
  * Ejercicio 26
@@ -13,7 +11,6 @@ public class Ejercicio26 {
   public static void main(String[] args) {
 
     String dia, socio;
-    Scanner s = new Scanner(System.in);
     int entrada = 0;
     double precio = 8.0;
     double total = entrada*precio;
@@ -33,9 +30,9 @@ public class Ejercicio26 {
     System.out.print("Número de entradas: ");
     entrada = Integer.parseInt(System.console().readLine());
     System.out.print("Día de la semana: ");
-    dia = s.nextLine().toLowerCase();
+    dia = System.console().readLine().toLowerCase();
     System.out.print("¿Tiene tarjeta CineCampa? (s/n): ");
-    socio = System.console().readLine();   
+    socio = System.console().readLine().toLowerCase();   
 //Comprobar dia de la semana   
     switch (dia) {
       case "lunes":

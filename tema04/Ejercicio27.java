@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Tema 4
  * Ejercicio 27
@@ -13,7 +11,6 @@ import java.util.Scanner;
 public class Ejercicio27 {
   public static void main(String[] args) {
 
-    Scanner s = new Scanner(System.in);
     String sabor, nata, nombre;
     String choco = "";
     double precio = 0.0;
@@ -21,15 +18,15 @@ public class Ejercicio27 {
     double precionombre = 0.0;
     System.out.println("___Presupuesto para sabor___");
     System.out.print("Elija un sabor (manzana, fresa o chocolate): ");
-    sabor = s.nextLine().toLowerCase();
+    sabor = System.console().readLine().toLowerCase();
     if (sabor.equals("chocolate")) {
       System.out.print("¿Que tipo de chocolate quiere? (negro o blanco): ");
-      choco = s.nextLine().toLowerCase();
+      choco = System.console().readLine().toLowerCase();
     }  
     System.out.print("¿Quiere nata? (si o no): ");
-    nata = s.nextLine().toLowerCase();
+    nata = System.console().readLine().toLowerCase();
     System.out.print("¿Quiere escribir un nombre? (si o no): ");
-    nombre = s.nextLine().toLowerCase();
+    nombre = System.console().readLine().toLowerCase();
 
     if (sabor.equals("manzana")) {
       precio = 18.00;

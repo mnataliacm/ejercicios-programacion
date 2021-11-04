@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Tema 4
  * Ejercicio 29
@@ -12,7 +10,6 @@ import java.util.Scanner;
 public class Ejercicio29 {
   public static void main(String[] args) {
 
-    Scanner s = new Scanner(System.in);
     String comida, bebida;
     String relleno = "";
     double precio = 0.0;
@@ -21,13 +18,13 @@ public class Ejercicio29 {
     
     System.out.println("___Precio del desayuno___");
     System.out.print("¿Qué ha tomado de comer (palmera, donut o pitufo): ");
-    comida = s.nextLine().toLowerCase();
+    comida = System.console().readLine().toLowerCase();
     if (comida.equals("pitufo")) {
       System.out.print("¿Con qué se ha tomado el pitufo? (aceite o tortilla): ");
-      relleno = s.nextLine().toLowerCase();
+      relleno = System.console().readLine().toLowerCase();
     }
     System.out.print("¿Qué ha tomado de beber (zumo o café): ");
-    bebida = s.nextLine().toLowerCase();
+    bebida = System.console().readLine().toLowerCase();
     System.out.println("\n********************************");
     
     if (comida.equals("palmera")) {

@@ -9,7 +9,7 @@
 public class Ejercicio09 {
   public static void main(String[] args) {
     
-    int a,b,c,primera,segunda;
+    int a,b,c;
     
     System.out.println("__Programa que resuelve la ecuación: ax²+bx+c=0__");
     System.out.print("Introduce el valor de a: ");

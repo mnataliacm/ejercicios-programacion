@@ -16,11 +16,11 @@ public class Ejercicio8 {
     char vocal4 = 'o';
     char vocal5 = 'u';
     
-    String vocales = vocal1 + ""+ vocal2 +""+ vocal3 +""+ vocal4 +""+ vocal5;
+    String vocales = "" + vocal1 + vocal2 + vocal3 + vocal4 + vocal5;
     
     System.out.println("Las vocales son: " + vocales);
     
   }
 }
 //Problema: falla variable vocales, dice que int no se puede convertir a String, se toma las vocales como números.
-//Solucion: poner un espacio entre ambas para que no las sume.
+//Solucion: poner un espacio delante para que no las sume.
