@@ -1,7 +1,5 @@
 /**
- * Tema 5
- * Ejercicio 1
- * Programa que muestra los multiplos de 5 desde 0 hasta 100.
+ * Tema 5 Ejercicio 1 Programa que muestra los multiplos de 5 desde 0 hasta 100 usando un bucle for
  *
  * @author Natalia Castillo Muñoz
  */
@@ -14,5 +12,3 @@ public class Ejercicio01 {
     }
   }
 }
-
- 

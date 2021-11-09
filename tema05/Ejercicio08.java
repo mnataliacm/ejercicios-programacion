@@ -13,10 +13,11 @@ public class Ejercicio08 {
     int num = Integer.parseInt(System.console().readLine());
     int i = 1;
     int tabla = 1;
-
+    System.out.println("\n Tabla del " + num);
+    System.out.println("-------------");
     for (i = 1; i <=10; i++) {
       tabla = num * i;
-      System.out.println(num + " x " + i + " = " + tabla);
+      System.out.printf("%2d x %2d = %3d\n", num, i, tabla);
     }
   }
 }
