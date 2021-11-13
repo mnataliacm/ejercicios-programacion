@@ -2,6 +2,7 @@
  * Tema 5
  * Ejercicio 11
  * Programa que a partir de un numero dado calcula el cuadrado y el cubo de los siguientes 5 numeros enteros.
+ * Mostrar en 3 columnas
  *
  * @author Natalia Castillo Muñoz
  */

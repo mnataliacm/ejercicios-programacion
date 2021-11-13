@@ -10,7 +10,6 @@
 public class Ejercicio20 {
   public static void main(String[] args) {
 
-    int blanco = 0;
     int linea = 0;
     
     System.out.println("___Programa que pinta una pirámide___");
@@ -24,10 +23,15 @@ public class Ejercicio20 {
       System.out.print("Introduce la altura: ");
       altura = Integer.parseInt(System.console().readLine());
     }
-
     System.out.println();
-    for (linea = 0; linea <= altura; linea++) {
-      
+    for (int espacio = 0; espacio <= altura - linea; espacio++) { 
+      System.out.print(" ");
+    }
+    //pico pirámide
+    System.out.print(caracter);
+    //cuerpo pirámide
+    for (linea = 1; linea <= altura; linea++) {
+      System.out.println();
       for (int espacio = 0; espacio <= altura - linea; espacio++) { 
         System.out.print(" ");
       }
@@ -36,8 +40,9 @@ public class Ejercicio20 {
         System.out.print(" ");
       }
       System.out.print(caracter);
-      System.out.println();
     }
+    System.out.println();
+    //base pirámide
     for (int dibujo = 1; dibujo <= (linea * 2) + 1; dibujo++) {
         System.out.print(caracter);
     }
