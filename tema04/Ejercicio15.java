@@ -1,5 +1,5 @@
 /**
- * Tema 4
+ * Tema 4 
  * Ejercicio 15
  * Programa que pinte una piramide rellena con un caracter dado por teclado.
  *
