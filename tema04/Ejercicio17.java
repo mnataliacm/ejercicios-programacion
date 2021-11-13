@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 17
+ * Ejercicio 17 
  * Programa que diga cual es la última cifra de un número entero introducido por teclado.
  * 
  *

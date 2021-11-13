@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 20
+ * Ejercicio 20 
  * Programa que diga si un número de 5 cifras entero positivo es capicúa.
  *
  * @author Natalia Castillo Muñoz

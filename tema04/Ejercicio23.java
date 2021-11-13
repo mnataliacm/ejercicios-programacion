@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 23
+ * Ejercicio 23 
  * Programa que calcule el precio final de un producto según su base imponible, tipo de IVA y descuento promocional.
  * IVA: general=21% reducido=10% superreducido=4%
  * descuentos promocionales: nopro, mitad, meno5(-5€) o 5porc(-5%).

@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 24
+ * Ejercicio 24 
  * Programa que genere una nómina (desglosada) de un empleado.
  * Pedir cargo: 1-Prog.junio, 2-Prog.senior, 3-Jefe de proyecto.
  * Pedir estado civil: 1 - soltero, 2 - Casado.

@@ -2,7 +2,7 @@
  * Calcular la nota de un trimestre de Programación.
  * Pide 2 notas, si la media es menor de 5 pregunta por recuperación
  * apto devuelve de nota un 5 y no apto mantiene la media anterior.
- * 
+ *  
  * 
  * @author Ale Cueto, Natalia Castillo
  */

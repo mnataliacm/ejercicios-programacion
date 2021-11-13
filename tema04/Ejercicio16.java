@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 16
+ * Ejercicio 16 
  * Programa que haga cuestionario sobre infidelidad pareja.
  * Cada pregunta contestada como verdadera suma 3 puntos, las falso no suman.
  *

@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 29
+ * Ejercicio 29 
  * Programa que calcula el precio de un desayuno.
  * Comida: palmera=1.40, donut=1, o pitufo: aceite=1.2 y tortilla=1.6
  * Bebida: zumo=1.50 o café=1.20.

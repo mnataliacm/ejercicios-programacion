@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 13
+ * Ejercicio 13 
  * Programa que ordene 3 números enteros introducidos por teclado.
  *
  * @author Natalia Castillo Muñoz

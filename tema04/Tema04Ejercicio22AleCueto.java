@@ -1,7 +1,7 @@
 /**
  * Dado un dia de la semana, y una hora, calcula los minutos hasta el fin de semana.
  * 
- * 
+ *  
  * @author Ale Cueto, Natalia Castillo
  */
 public class Tema04Ejercicio22AleCueto {

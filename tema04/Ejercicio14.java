@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 14
+ * Ejercicio 14 
  * Programa que diga si un numero introducido es par y/o divisible entre 5.
  *
  * @author Natalia Castillo Muñoz

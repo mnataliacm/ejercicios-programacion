@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 19
+ * Ejercicio 19 
  * Programa que nos diga cuántos dígitos tiene un numero entero de 5 cifras dado (positivo o negativo).
  *
  * @author Natalia Castillo Muñoz

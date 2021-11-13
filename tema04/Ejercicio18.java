@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 18
+ * Ejercicio 18 
  * Programa que indica cual es la primera cifra de un número entero de 5 cifras dado.
  *
  * @author Natalia Castillo Muñoz

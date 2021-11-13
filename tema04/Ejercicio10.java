@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 10
+ * Ejercicio 10 
  * Programa que nos diga el horóscopo a partir del dia y del mes de nacimiento.
  *
  * @author Natalia Castillo Muñoz

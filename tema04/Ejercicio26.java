@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 26
+ * Ejercicio 26 
  * Programa que calcula el precio de unas entradas de cine según personas y dia de la semana.
  * Entrada=8€   miercoles=5€ jueves=2x11€ (si son 7: 3entradas pareja y 1 individual=33+8)
  * CineCampa = 10% dto.

@@ -1,5 +1,5 @@
 /**
- * Tema 4
+ * Tema 4 
  * Ejercicio 28
  * Programa que implementa el juego piedra papel o tijera.
  * 2 usuarios introducen su entrada, si la opcion es incorrecta debe dar mensaje de error.

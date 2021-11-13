@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 7
+ * Ejercicio 7 
  * Programa que calcule la media de 3 notas.
  *
  * @author Natalia Castillo Muñoz

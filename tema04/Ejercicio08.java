@@ -1,5 +1,5 @@
 /**
- * Tema 4
+ * Tema 4 
  * Ejercicio 8
  * Programa que calcule la media de 3 notas e indique la nota del boletín,
  * insuficiente, suficiente, bien, notable o sobresaliente.

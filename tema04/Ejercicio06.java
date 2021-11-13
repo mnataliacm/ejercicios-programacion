@@ -1,5 +1,5 @@
 /** * Tema 4
- * Ejercicio 6
+ * Ejercicio 6 
  * Programa que calcule el tiempo que tara un objeto en caer desde altura h.
  * Formula: t= √2*h/g
  * g = 9.81m/s²

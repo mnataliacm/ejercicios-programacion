@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 27
+ * Ejercicio 27 
  * Programa que nos pide una pasteleria que haga presupuestos sabors.
  * Sabor = manzana=18€, fresas=16 o chocolate: negro=14€ blanco=15€
  * Nata =2.5€

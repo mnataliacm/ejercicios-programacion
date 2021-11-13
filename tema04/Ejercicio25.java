@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 25
+ * Ejercicio 25 
  * Programa que calcula el precio de las banderas según el alto y el ancho. Precio 1 céntimo por centímetro cuadrado.
  * Bordado = 2.50€
  * Gastos de envio = 3.25€

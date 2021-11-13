@@ -1,5 +1,5 @@
 /**
- * Tema 4
+ * Tema 4 
  * Ejercicio 5
  * Programa que resuelva una ecuación de primer grado tipo: ax + b = 0
  *

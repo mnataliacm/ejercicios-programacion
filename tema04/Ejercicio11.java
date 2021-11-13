@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 11
+ * Ejercicio 11 
  * Programa que dada una hora determinada (horas y minutos)
  * calcule los segundos que falta para la medianoche
  *

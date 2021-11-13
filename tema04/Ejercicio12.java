@@ -1,6 +1,6 @@
 /**
  * Tema 4
- * Ejercicio 12
+ * Ejercicio 12 
  * Minicuestionario con 10 preguntas tipo test sobre las asignaturas del curso.
  * Cada pregunta acertada suma 1 punto. Mostrar resultados.
  *
