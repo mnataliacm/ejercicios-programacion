@@ -59,7 +59,9 @@ public class Ejercicio15 {
         System.out.println("     "+x+x+x);
         System.out.println("     "+x);
         break;
+      default:
+        System.out.println("\nNúmero introducido erroneo");
+        break;
     }
-
   }
 }
