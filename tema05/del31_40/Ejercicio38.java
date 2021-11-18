@@ -14,28 +14,28 @@ public class Ejercicio38 {
     int altura = Integer.parseInt(System.console().readLine());
     //variables
     String caracter = "*";
+    int linea = altura;
     //comprar impar y >= 3
     while ((altura < 3) || (altura % 2 == 0)) {
       System.out.println("El número debe ser impar e igual o mayor que 3");
       System.out.print("Introduce la altura: ");
       altura = Integer.parseInt(System.console().readLine());
     }
+    altura = (altura / 2) + 1;
     //espacios arriba - izquierda
     System.out.println();
-    for (int linea = 0; linea <= altura; linea++) {
-      for (int espacio = 0; espacio <= altura; espacio++) {
+    for (linea = altura; linea > 1; linea--) {
+      for (int espacio = 0; espacio < altura - linea; espacio++) { 
         System.out.print(" ");
       }
-      //parte superior reloj  
-      for (int dibujo = 1; dibujo <= (linea * 2) + 1; dibujo++) {
+      for (int dibujo = 1; dibujo <= (linea * 2) - 1; dibujo++) {
         System.out.print(caracter);
       }
       System.out.println();
     }
     //espacios abajo - izquierda
-    System.out.println();
-    for (int linea = 0; linea <= altura; linea++) {
-      for (int espacio = 0; espacio <= altura - linea; espacio++) {
+    for (linea = 1; linea <= altura; linea++) {
+      for (int espacio = 1; espacio <= altura - linea; espacio++) {
         System.out.print(" ");
       }
       //parte inferior reloj  
@@ -44,8 +44,6 @@ public class Ejercicio38 {
       }
       System.out.println();
     }
-    System.out.print("");
-    System.out.print("");
   }
 }
 
