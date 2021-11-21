@@ -13,11 +13,11 @@ public class Ejercicio37 {
     int numero = Integer.parseInt(System.console().readLine());
     //variables
     int num = numero;
-    int conteo = 1;
+    int conteo = 0;
     int num1 = 1;
     int numeroReves = 0;   
     //Contar dígitos
-    while (num > 1) {
+    while (num > 0) {
       num = num / 10;
       conteo++;
     }
@@ -28,7 +28,7 @@ public class Ejercicio37 {
       num /=10;
     }
     num = numeroReves; 
-    System.out.println(conteo);
+    System.out.println(conteo); //comprobar --> quitar luego
     //convirtiendo a palote 
     do {
       
@@ -36,9 +36,11 @@ public class Ejercicio37 {
       for (int i = 0; i < num1; i++) {
         System.out.print("|");
       }
-      System.out.print("-");
       conteo--;
       num = num / 10;
+      if (conteo > 0) {
+      System.out.print("-");
+      }
     } while (conteo > 0);
     System.out.println();
 

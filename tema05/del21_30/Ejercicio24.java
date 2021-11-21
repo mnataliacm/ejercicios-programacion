@@ -20,18 +20,13 @@ public class Ejercicio24 {
         System.out.print(" ");
       }
       //pirámide    
-        for (int dibujo = 1; dibujo <= (linea+1/2); dibujo++) {
-          if (dibujo >= 1) {
+        for (int dibujo = 1; dibujo <= linea; dibujo++) {         
             System.out.print(dibujo);
-          }
         }
-        for (int dibujo = linea-1; dibujo >= (linea/2); dibujo--) {
-          if (dibujo >= 1) {
+        for (int dibujo = linea - 1; dibujo >= 1; dibujo--) {
             System.out.print(dibujo);
-          }
         }
       System.out.println();
     }
   }
 }
-//¿POR QUÉ SE COME LOS 2 ÚLTIMOS 1???????????????

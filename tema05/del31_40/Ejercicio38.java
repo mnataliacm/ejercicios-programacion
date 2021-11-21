@@ -22,12 +22,12 @@ public class Ejercicio38 {
       altura = Integer.parseInt(System.console().readLine());
     }
     altura = (altura / 2) + 1;
-    //espacios arriba - izquierda
     System.out.println();
     for (linea = altura; linea > 1; linea--) {
       for (int espacio = 0; espacio < altura - linea; espacio++) { 
         System.out.print(" ");
       }
+      //parte superior reloj
       for (int dibujo = 1; dibujo <= (linea * 2) - 1; dibujo++) {
         System.out.print(caracter);
       }

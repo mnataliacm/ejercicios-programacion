@@ -2,7 +2,7 @@
  * Tema 5
  * Ejercicio 11
  * Programa que a partir de un numero dado calcula el cuadrado y el cubo de los siguientes 5 numeros enteros.
- * Mostrar en 3 columnas
+ * 
  *
  * @author Natalia Castillo Muñoz
  */
@@ -21,3 +21,8 @@ public class Ejercicio11 {
   }
 }
 
+do {
+  numero++;
+  conteo ++;
+  System.out.println(" Número: " + numero + "   número²: " + numero * 2 + "   número³: " + numero*31);
+} while (conteo < 5);

@@ -13,7 +13,7 @@ public class Ejercicio16 {
     System.out.print("Introduce un número: ");
     int numero = Integer.parseInt(System.console().readLine());
     int n = 0;
-    String primo = "";
+    Boolean primo = true;
 
     while (numero <= 1) {
       System.out.println("El número tiene que ser mayor de 1");
@@ -23,10 +23,10 @@ public class Ejercicio16 {
     
     for (n = 2; n < numero; n++) {
       if (numero % n == 0){
-       primo = "no";
+       primo = false;
       } 
     }
-    if (primo.equals("no")) {
+    if (primo.equals(false)) {
       System.out.println("El número " + numero + " no es primo");
     } else {
       System.out.println("El número " + numero + " es primo");

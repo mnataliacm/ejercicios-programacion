@@ -23,6 +23,7 @@ public class Ejercicio26 {
       cortar *= 10;
     }
     System.out.print("El dígito " + digito + " está en la/s posición/es: ");
+    //comprobar digitos
     cortar = cortar / 10;
     num = numero / cortar;
     int posicion = 1;

@@ -1,4 +1,5 @@
 /**
+ * 
  * Tema 5
  * Ejercicio 39
  * Programa que pida un entero positivo y muestre el factorial
@@ -14,12 +15,12 @@ public class Ejercicio39 {
 
     System.out.println("\nCalculado el factorial de " + numero);
     int total = 1;
-    for (int i = 0; i < numero; i++) {
+    for (int i = 1; i <= numero; i++) {
       total = total * i;
-      System.out.printf("%d! = %d\n", numero, total);
+      System.out.printf("%d! = %d\n", i, total);
     }
     
-    
+  
     
 
     System.out.print("");
