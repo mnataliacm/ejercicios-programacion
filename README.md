@@ -31,4 +31,11 @@
 
 ### Tema 05
 * Bucles
-* 
+  * switch
+  * for
+  * while
+  * do while
+
+### Tema 06
+* Número aleatorios
+
