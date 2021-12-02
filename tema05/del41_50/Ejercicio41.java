@@ -24,7 +24,7 @@ public class Ejercicio41 {
     }
     //comprobar par e impar
     while (cortar > 1) {
-      cortar = cortar / 10;
+      cortar /= 10;
       num = (numero / cortar) % 10;
       if (num % 2 == 0) {
         par++;

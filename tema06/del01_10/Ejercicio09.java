@@ -14,15 +14,12 @@ public class Ejercicio09 {
     int numero = 0;
     System.out.println();
     do { 
-        numero = (int)(Math.random() * 101);
-        conteo++;
-        if (numero % 2 == 0) {
+        numero = 2 * (int)(Math.random() * 50);   
           System.out.print(numero + " ");
-          
-        }
+          conteo++;
     } while (numero != 24);
 
-    System.out.printf("\nEn total se han generado:%d números\n", conteo);
+    System.out.printf("\nEn total se han generado: %d números\n", conteo);
   }
 }
 

@@ -53,5 +53,6 @@ public class Ejercicio47 {
     for (int b = 0; b < ancho; b++) {
       System.out.print("M");
     }
+    System.out.println();
   }
 }

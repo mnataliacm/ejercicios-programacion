@@ -14,11 +14,10 @@ public class Ejercicio14 {
     System.out.print("Introduce el exponente (entero positivo): ");
     int exponente = Integer.parseInt(System.console().readLine());
     int resultado = base;
-
     for (int i = 1; i < exponente; i++) {
       resultado = resultado * base;
     }
-
+    if (resu)
     System.out.println("\nEl resultado de " + base + "^" + exponente + " es = " + resultado);
   }
 }

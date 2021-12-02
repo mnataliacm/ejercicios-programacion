@@ -13,7 +13,7 @@ public class Ejercicio02 {
     System.out.println("___Carta al azar de la baraja francesa___");
 
     int palo = (int)(Math.random() * 4) + 1;
-    int carta = (int)(Math.random() * 14) + 1;
+    int carta = (int)(Math.random() * 13) + 1;
     
     System.out.print("Ha salido la carta: ");
 
@@ -37,16 +37,16 @@ public class Ejercicio02 {
 
     switch (palo) {
       case 1:
-        System.out.print(" de picas");
+        System.out.print(" de picas ♠️");
         break;
       case 2:
-        System.out.print(" de corazones");
+        System.out.print(" de corazones ❤️");
         break;
       case 3:
-       System.out.print(" de diamantes");
+       System.out.print(" de diamantes ♦️");
        break;
       case 4:
-        System.out.print(" de tréboles");
+        System.out.print(" de tréboles ♣️");
         break;
       default:
         break;

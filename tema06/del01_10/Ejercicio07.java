@@ -8,18 +8,17 @@
 public class Ejercicio07 {
   public static void main(String[] args) {
 
-    System.out.println("___Programa que rellena la Quiniela___");
     String num = "";
     int conteo = 0;
     int numero = 0;
+    System.out.print(" ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅");
     for (conteo = 1; conteo <= 15; conteo++) {
-            System.out.printf("\nPartido %2d:", conteo); 
+      System.out.printf("\n┋Partido %2d:", conteo); 
       for (int i = 1; i < 4; i++) {
         numero = (int)(Math.random() * 3 + 1);
         switch (numero) {
           case 1:
             num = "1";
-            
             break;
           case 2:
             num = "X";
@@ -30,10 +29,17 @@ public class Ejercicio07 {
           default:
             break;
         }
-        System.out.printf("%3s", num);
+        if (num.equals("1")) {
+        System.out.printf("┋%1s %1s %1s┋", num, " ", " ");
+        } else if (num.equals("X")) {
+          System.out.printf("┋%1s %1s %1s┋", " ", num, " ");
+        } else if (num.equals("2")) {
+          System.out.printf("┋%1s %1s %1s┋", " ", " ", num);
+        }
       }
     }
     System.out.println();
+    System.out.println(" ┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅");
   }
 }
 
