@@ -12,42 +12,40 @@ public class Ejercicio49 {
 
     System.out.println("___Programa que calcula el máximo, mínimo y media de los números enteros positivos dados___");
     //variables
-    int numero = 2;
-    boolean primo =  false;
-    int conteo = 0;
-    //int num = 0;
-    int max = 2;
-    int min = 2;
-    int media = 1;
+    int numero = 0;
+    boolean primo;
+    int conteo = 1;
+    int max = 0;
+    int min = 1;
+    int media = 0;
     //pedir y comprobar numeros
-    System.out.println("Introduce números enteros positivos. Terminará cuando el número sea primo: "); 
-    for (int n = 2; n < numero; n++) {
+    System.out.println("Introduce números enteros positivos. Terminará cuando el número sea primo: ");
+    numero = Integer.parseInt(System.console().readLine());
+    max = numero;
+    min = numero;
+    do {
       numero = Integer.parseInt(System.console().readLine());
-      if (numero % n == 0){
-        primo = false;
-        conteo++;
+        primo = true;
+        for (int n = 2; n < numero; n++) {
+          if (numero % n == 0){
+            primo = false; 
+          } 
+        } 
+      if (!primo) {
         media += numero;
-
-        //comprobar maximo
+        conteo++;
         if (numero > max) {
           max = numero;
         } else if (numero < min) {
           min = numero;
         }
-      } 
-    }
-    // while ((numero > 1) && (!primo)) {
-    // }
-    System.out.print(conteo);
-    System.out.print(max);
-    System.out.println(min);
-    System.out.println(media);
-    //System.out.println(media/conteo);
-    //comprobar números
-    //if ((alto < 2) || (ancho < 2)) {}
-    //int palo = (int)(Math.random() * 4) + 1;
-    // int numero = Integer.parseInt(System.console().readLine());
-
+      }
+    } while ((numero > 1) && (!primo));
+    System.out.println();
+    System.out.println("Has introducido " + conteo + " números no primos");
+    System.out.println("Número mayor: " + max);
+    System.out.println("Número menor: " + min);
+    System.out.println("La media del total es: " + (double)media / conteo);
   }
 }
 
