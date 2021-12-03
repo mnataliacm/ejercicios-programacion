@@ -1,5 +1,3 @@
-import javax.xml.transform.stream.StreamSource;
-
 /**
  * Tema 6
  * Ejercicio 11

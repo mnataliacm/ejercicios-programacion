@@ -1,5 +1,3 @@
-import javax.print.attribute.standard.Sides;
-
 /**
  * Tema 6
  * Ejercicio 14
