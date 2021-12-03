@@ -47,9 +47,7 @@ public class Ejercicio16 {
         figura2 = dibujo;
       } else if (tirada == 2) {
         figura3 = dibujo;
-      }
-      //System.out.print(dibujo);
-      
+      }     
     }
     System.out.println("╔════╗ ╔════╗ ╔════╗");
     System.out.println("║ " + figura1 + " ║ ║ " + figura2 + " ║ ║ " + figura3 + " ║");
