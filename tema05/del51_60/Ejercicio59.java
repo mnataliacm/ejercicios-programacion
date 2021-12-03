@@ -1,5 +1,3 @@
-import java.rmi.server.SocketSecurityException;
-
 /**
  * 
  * Programa que pinta un arbol de navidad con adornos
