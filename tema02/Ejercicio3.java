@@ -1,7 +1,7 @@
 /**
  * Tema 2
  * Ejercicio 3, crear variables nombre, direccion y telefono y mostrar.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio3 {

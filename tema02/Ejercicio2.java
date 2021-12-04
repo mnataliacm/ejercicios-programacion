@@ -1,7 +1,7 @@
 /**
  * Tema 2
  *  Ejercicio 2, guardar nombre en variable y mostrar en pantalla
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio2 {

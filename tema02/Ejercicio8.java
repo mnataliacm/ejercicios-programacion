@@ -4,7 +4,7 @@
  * Programa que declare 5 variables tipo char. 
  * 1 variable cadena de caracteres y su valor la concatenación de las anteriores.
  * Mostrar por pantalla, ¿problemas? ¿solución?
- * 
+ *  
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio8 {

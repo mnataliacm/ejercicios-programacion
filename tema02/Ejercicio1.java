@@ -1,7 +1,7 @@
 /**
  * Tema 2
  * Ejercicio 1, crear dos variables y sumar, restar, dividir y multiplicar
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio1 {

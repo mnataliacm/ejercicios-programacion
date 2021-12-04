@@ -1,7 +1,7 @@
 /**
  * Tema 2
  * Ejercicio 5, crea un conversor de euros a pesetas.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio5 {

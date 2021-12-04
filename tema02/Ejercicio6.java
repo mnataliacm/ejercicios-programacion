@@ -3,7 +3,7 @@
  * Ejercicio 6
  * Programa que calcule el total de una factura a partir de la base imponible (sin IVA)
  * Base Imponible almacenada en variable.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio6 {

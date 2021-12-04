@@ -3,7 +3,7 @@
  * Ejercicio 7
  * Programa que declara variables tipo: char y String.
  * Intentar mostrar todas en una linea y usar una sentencia java ¿es posible?
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio7 {
