@@ -2,7 +2,7 @@
  * Tema 4
  * Ejercicio 3
  * Programa que indicando un numero del 1 al 7 escriba el dia de la semana.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio03 {

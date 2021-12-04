@@ -1,7 +1,7 @@
 /**
  * Tema 4
  * Ejercicio 1
- * Programa que pide por teclado dia de la semana y diga que asignatura toca a primera hora.
+ * Programa que pide por teclado dia de la semana y diga que asignatura toca a primera hora. 
  *
  * @author Natalia Castillo Muñoz
  */

@@ -1,7 +1,7 @@
 /**
  * Tema 4
  * Ejercicio 2
- * Programa que pida una hora por teclado y muestre buenos días, tardes o noches según la hora.
+ * Programa que pida una hora por teclado y muestre buenos días, tardes o noches según la hora. 
  *
  * @author Natalia Castillo Muñoz
  */

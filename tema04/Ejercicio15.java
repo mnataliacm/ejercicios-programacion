@@ -2,7 +2,7 @@
  * Tema 4 
  * Ejercicio 15
  * Programa que pinte una piramide rellena con un caracter dado por teclado.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio15 {
