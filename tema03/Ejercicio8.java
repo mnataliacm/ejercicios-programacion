@@ -3,7 +3,7 @@
  * Ejercicio 8
  * Programa que calcule el salario semanal en base a las horas trabajadas.
  * A razón de 12 euros la hora.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio8 {

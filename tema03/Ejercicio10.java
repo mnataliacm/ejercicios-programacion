@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 10
  * Programa que convierte MB en kB.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio10 {

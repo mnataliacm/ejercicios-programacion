@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 5
  * Programa que calcule el área de un rectángulo.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio5 {

@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 1
  * Programa que pide dos números y luego muestra resultado multiplicados.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio1 {

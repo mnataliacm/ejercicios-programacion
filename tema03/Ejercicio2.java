@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 2
  * Conversor de euros a pesetas.
- *
+ * k
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio2 {

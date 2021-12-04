@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 4
  * Solicitar 2 números y mostrar la suma, resta multiplicación y división.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio4 {

@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 11
  * Programa que convierte de kB a MB y a MiB.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio11 {

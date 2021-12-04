@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 6
  * Programa que calculo el área de un triángulo.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio6 {

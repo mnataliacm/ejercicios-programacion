@@ -2,7 +2,7 @@
  * Tema 3
  * Ejercicio 7
  * Programa que calcule el total de una factura.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio7 {
