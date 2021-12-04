@@ -1,5 +1,5 @@
 /**
- * Muestra por pantalla mi nombre"
+ * Pinta una pirámide hueca
  *
  * @author Natalia Castillo Muñoz
  */

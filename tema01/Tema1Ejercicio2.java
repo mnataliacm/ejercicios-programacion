@@ -1,6 +1,6 @@
 /**
  * Muestra por pantalla mi nombre, dirección y teléfono"
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Tema1Ejercicio2 {

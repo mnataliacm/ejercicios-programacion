@@ -1,5 +1,5 @@
 /**
- * Muestra por pantalla mi nombre"
+ * dibujo con ascii
  *
  * @author Natalia Castillo Muñoz
  */

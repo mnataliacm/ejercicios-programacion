@@ -1,6 +1,6 @@
 /**
  * Horario de clase
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Tema1Ejercicio4 {

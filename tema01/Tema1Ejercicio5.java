@@ -1,6 +1,6 @@
 /**
- * Horario de clase
- *
+ * Horario de clase en color
+ * 
   * @author Natalia Castillo Muñoz
  */
 public class Tema1Ejercicio5 {
