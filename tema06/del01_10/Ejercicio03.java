@@ -2,7 +2,7 @@
  * Tema 6
  * Ejercicio 03
  * Igual que el anterior pero con la bajara española de 40 cartas.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio03 {

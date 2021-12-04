@@ -3,7 +3,7 @@
  * Ejercicio 05
  * Programa que muestra 50 números aleatorios entre 100 y 199 (ambos incluidos) separados por espacios.
  * Mostrar el máximo, el mínimo y la media.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio05 {

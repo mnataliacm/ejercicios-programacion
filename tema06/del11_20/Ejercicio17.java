@@ -3,7 +3,7 @@
  * Ejercicio 17
  * Programa que pinta una pecera con un pececito dentro
  * Pedir alto y ancho de la pecera
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio17 {

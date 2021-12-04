@@ -2,7 +2,7 @@
  * Tema 6
  * Ejercicio 7
  * Programa que muestre 3 apuestas de la quiniela en 3 columnas para los 14 partidos y el pleno (15 filas)
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio07 {

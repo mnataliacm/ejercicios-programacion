@@ -2,7 +2,7 @@
  * Tema 6
  * Ejercicio 8
  * Programa que muestre 3 apuestas de la quiniela en 3 columnas para los 14 partidos y el pleno (15 filas)
- * 
+ *  
  * Mejorar lo anterior cambiando probabilidades
  * 1 = 1/2 o 3/6 ; X = 1/3 o 2/6 ; 2 = 1/6
  *

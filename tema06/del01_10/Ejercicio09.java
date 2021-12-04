@@ -3,7 +3,7 @@
  * Ejercicio 9
  * Programa que genera números aleatorios pares entre 0 y 100.
  * No para hasta que saque el 24. Decir total de números generados.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio09 {
@@ -22,4 +22,4 @@ public class Ejercicio09 {
     System.out.printf("\nEn total se han generado: %d números\n", conteo);
   }
 }
-
+ 

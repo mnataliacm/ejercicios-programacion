@@ -14,7 +14,7 @@ public class Ejercicio16 {
 
     System.out.println("___MÁQUINA TRAGAPERRAS___");
     //variables
-    String dibujo = "";
+    String dibujo = ""; 
     String figura1 = "";
     String figura2 = "";
     String figura3 = "";

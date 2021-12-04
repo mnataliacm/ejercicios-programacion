@@ -4,7 +4,7 @@
  * Programa que muestra 20 notas al azar.
  * Mostrar notas: suspenso, suficiente, bien, notable o sobresaliente.
  * Al final mostrar total de suspensos, suficientes, etc.
- * 
+ *  
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio11 {

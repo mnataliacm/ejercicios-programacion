@@ -3,7 +3,7 @@
  * Ejercicio 13
  * Programa que simula la tirada de dos dados.
  * No para hasta que ambos den el mismo resultado.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio13 {

@@ -4,7 +4,7 @@
  * Programa que pinte 10 líneas formadas por caracteres
  * Carácter aleatorio: * - = . | @
  * Longitud aleatoria entre 1 y 40 caracteres
- * 
+ *  
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio10 {

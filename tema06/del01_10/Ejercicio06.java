@@ -4,7 +4,7 @@
  * Programa "Adivina el número"
  * Entre 0 y 100, 5 oportunidades
  * Indicar cuantas quedan y si el numero es mayor o menor que el secreto.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio06 {

@@ -3,7 +3,7 @@
  * Ejercicio 18
  * Programa que muestra colores aleatorios, no se repiten.
  * Colores: rojo, azul, verde, amarillo, violeta y naranja.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio18 {

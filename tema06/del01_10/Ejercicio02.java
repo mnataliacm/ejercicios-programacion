@@ -4,7 +4,7 @@
  * Programa que muestre al azar un nombre de carta de la baraja francesa
  * 4 palos, 13 cartas, 9 numerales y 4 literales. (A = 1)
  * Convertir numero en string con String.valueOf(n)
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio02 {

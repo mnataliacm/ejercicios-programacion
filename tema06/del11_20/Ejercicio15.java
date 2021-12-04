@@ -4,7 +4,7 @@
  * siempre multiplo de 4 (4,8,12,...) Agrupadas de 4 en 4 y separadas con | La
  * última nota debe coincidir con la primera
  * 
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio15 {

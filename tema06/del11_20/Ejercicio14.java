@@ -3,7 +3,7 @@
  * Ejercicio 14
  * Programa que hace lo contrario al ejercicio 6, el programa adivinará un número que pensemos entre 0 y 100, tiene 5 oportunidades. Cada fallo debe preguntar si es mayor o menor.
  * 
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio14 {

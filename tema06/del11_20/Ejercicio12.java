@@ -4,7 +4,7 @@
  * Programa que llene la pantalla de caracteres aleatorios (a lo Matrix)
  * Código ascii entre 32 y 126. 
  * Casting con char para convertir de entero a carácter.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio12 {

@@ -3,7 +3,7 @@
  * Ejercicio 1
  * Programa que muestra una tirada de 3 dados.
  * Mostrar también la suma de los puntos conseguidos.
- *
+ * 
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio01 {
