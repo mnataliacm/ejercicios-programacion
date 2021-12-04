@@ -29,7 +29,7 @@
 * Llaves egipcias
 * Operadores lógicos
 
-### Tema 05
+### Tema 05 ✔
 * Bucles
   * switch
   * for
@@ -38,4 +38,9 @@
 
 ### Tema 06
 * Número aleatorios
+
+### Tema 07
+* Arrays de una dimensión
+* Arrays de bidimensionales
+* Recorrer arrays con for estilo foreach
 
