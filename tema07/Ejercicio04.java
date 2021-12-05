@@ -1,5 +1,3 @@
-import javax.swing.plaf.metal.MetalIconFactory.FolderIcon16;
-
 /**
  * Tema 7
  * Ejercicio 4

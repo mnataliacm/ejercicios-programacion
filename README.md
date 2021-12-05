@@ -13,7 +13,6 @@
 ![foto1](https://user-images.githubusercontent.com/74043250/139556816-8cdf7f78-3814-4932-9c41-92bb756f4269.png)
 
 ### Tema 02 ✔
-[ver]:(https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema01)
 * Variables
 * Enteros
 * Decimales
