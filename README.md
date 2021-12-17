@@ -29,6 +29,8 @@
 * Llaves egipcias
 * Operadores lógicos
 
+![Foto2](./zzCapturas/calculadoraNominas.png)
+
 ### [Tema 05 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema05)
 * Bucles
   * switch
