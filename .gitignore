@@ -1,7 +1,8 @@
 *.class
-zBase*.java
-temp*.java
 z*
+temp*.java
 .vs*
 Ejerciciox.java
 *.pdf
+*.png
+
