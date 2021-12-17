@@ -3,8 +3,11 @@
  * Ejercicio 17
  * Programa que pinta una pecera con un pececito dentro
  * Pedir alto y ancho de la pecera
+ * 🐠
+ * 
  * 
  * @author Natalia Castillo Muñoz
+ * 
  */
 public class Ejercicio17 {
   public static void main(String[] args) {
@@ -15,25 +18,33 @@ public class Ejercicio17 {
     System.out.print("Introduce el ancho del rectángulo: ");
     int ancho = Integer.parseInt(System.console().readLine());
     //variables
-    int pez1 = 1;
-    int pez2 = 1;
-    String pez = "🐠";
+    int pezAlto = 1;
+    int pezAncho = 1;
+    String pez = "&";
     System.out.println();
-      pez1 = (int)(Math.random() * ancho + 1);
-      pez2 = (int)(Math.random() * alto + 1);  
-    System.out.println(pez1 + " " + pez2);
+    //posición pez
+    int aPez = (ancho * 2) - 2;
+    int hPez = alto - 2;
+    do {
+      pezAlto = (int)(Math.random() * hPez);
+    } while ((pezAlto < 2) || (pezAlto > alto));
+    do {
+      pezAncho = (int)(Math.random() * aPez);
+    } while ((pezAncho < 2) || (pezAncho >= (ancho * 2) - 1));
+     
+    System.out.println(pezAlto + " " + pezAncho);
+
     //parte superior
     for (int a = 0; a < ancho; a++) {
       System.out.print("* ");
     }
     System.out.println();
     //parte central
-    for (int h = 1; h < alto / 2 + 2; h++) {
+    for (int h = 1; h < alto - 1; h++) {
       System.out.print("*");
-      for (int i = 1; i < (ancho * 2 - 2); i++) {
-        if ((pez1 == i) && (pez2 == h)) {
-          System.out.print(pez + " ");
-          i += 2;
+      for (int i = (ancho * 2) - 2; i > 1; i--) {
+        if ((pezAlto == h) && (pezAncho == i)) {
+          System.out.print(pez);
         } else {
           System.out.print(" ");
         }
