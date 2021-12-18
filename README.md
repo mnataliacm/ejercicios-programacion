@@ -29,7 +29,7 @@
 * Llaves egipcias
 * Operadores lógicos
 
-![calculadoraNominas](https://user-images.githubusercontent.com/74043250/146621097-439d24b3-5dea-4826-9d0e-dab8d3a6fb9a.png)
+![calculadoraNominas](https://user-images.githubusercontent.com/74043250/146641935-7d38a9cf-05ec-4393-9724-5dcac5be15fb.png)
 
 ### [Tema 05 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema05)
 * Bucles
