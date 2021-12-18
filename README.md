@@ -44,7 +44,6 @@
 * Número aleatorios
 
 ![tragaperras](https://user-images.githubusercontent.com/74043250/146621617-b120607d-0c64-4394-936b-cbd8eb59fd1a.png)
-![tragaperras2](https://user-images.githubusercontent.com/74043250/146621692-0579020b-224a-4a98-8593-7ef9a647abfc.png)
 
 ### [Tema 07a  ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07a)
 * Arrays de una dimensión
