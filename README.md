@@ -6,11 +6,11 @@
 * Usar colores
 * Hacer horario de clase
 
-![foto3](https://user-images.githubusercontent.com/74043250/139556945-c5224945-a57b-4da8-90c9-2f3f5427c7b3.png)
+![horarioColores](https://user-images.githubusercontent.com/74043250/139556945-c5224945-a57b-4da8-90c9-2f3f5427c7b3.png)
 
 * Dibujar:
 
-![foto1](https://user-images.githubusercontent.com/74043250/139556816-8cdf7f78-3814-4932-9c41-92bb756f4269.png)
+![dibujoReyCampo](https://user-images.githubusercontent.com/74043250/139556816-8cdf7f78-3814-4932-9c41-92bb756f4269.png)
 
 ### [Tema 02 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema02)
 * Variables
@@ -29,7 +29,7 @@
 * Llaves egipcias
 * Operadores lógicos
 
-![Foto2](./zzCapturas/calculadoraNominas.png)
+![calculadoraNominas](https://user-images.githubusercontent.com/74043250/146621097-439d24b3-5dea-4826-9d0e-dab8d3a6fb9a.png)
 
 ### [Tema 05 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema05)
 * Bucles
@@ -37,9 +37,14 @@
   * for
   * while
   * do while
+  
+  ![relojDeArena](https://user-images.githubusercontent.com/74043250/146621483-98eba0bf-09eb-48d5-9541-ee017328cc71.png)
 
 ### [Tema 06 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema06)
 * Número aleatorios
+
+![tragaperras](https://user-images.githubusercontent.com/74043250/146621617-b120607d-0c64-4394-936b-cbd8eb59fd1a.png)
+![tragaperras2](https://user-images.githubusercontent.com/74043250/146621692-0579020b-224a-4a98-8593-7ef9a647abfc.png)
 
 ### [Tema 07a  ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07a)
 * Arrays de una dimensión
