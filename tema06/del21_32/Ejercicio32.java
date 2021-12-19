@@ -8,6 +8,7 @@
  * Posicion obstaculo aleatoria y solo uno por linea.
  * Obstaculos: planta = *, piedra = O.
  * Pedir longitud en metros.
+ * Uso emojis así que amplio el ancho a 6
  *
  * 
  * @author Natalia Castillo Muñoz
@@ -24,8 +25,8 @@ public class Ejercicio32 {
     //VARIABLES
     int ancho = 4;
     int delante = 10;
-    String planta = "*";
-    String piedra = "O";
+    String planta = "🌱";
+    String piedra = "🪨 ";
     int obstaculo = 0;
     int posicionObstaculo = -1;
     int quePongo = 0;
@@ -51,7 +52,7 @@ public class Ejercicio32 {
             System.out.print(piedra);
           } 
         } else {
-          System.out.print(" ");
+          System.out.print("  ");
         }
       } 
     //margen derecho

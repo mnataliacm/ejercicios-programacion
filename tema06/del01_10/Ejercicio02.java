@@ -37,16 +37,16 @@ public class Ejercicio02 {
 
     switch (palo) {
       case 1:
-        System.out.print(" de picas ♠️");
+        System.out.print(" de picas  ♠");
         break;
       case 2:
-        System.out.print(" de corazones ❤️");
+        System.out.print(" de corazones ♥");
         break;
       case 3:
-       System.out.print(" de diamantes ♦️");
+       System.out.print(" de diamantes ♦");
        break;
       case 4:
-        System.out.print(" de tréboles ♣️");
+        System.out.print(" de tréboles ♣");
         break;
       default:
         break;

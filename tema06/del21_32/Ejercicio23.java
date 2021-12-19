@@ -4,7 +4,7 @@
  * 
  * Programa que pinta las figuras de un dado de poker: As, K, Q, J, 7 y 8
  * Genera la tirada de 5 dados
- * 🂶 🂷 🂻 🂽 🂾 🂱
+ * 🂷 🂸 🂻 🂽 🂾 🂱
  * 
  * @author Natalia Castillo Muñoz
  */
@@ -21,22 +21,22 @@ public class Ejercicio23 {
       int dado = (int)(Math.random() * 6) + 1;
       switch (dado) {
         case 1:
-          System.out.printf("%s 🂶 %s 6", rojo, reset);
+          System.out.printf("%s 🂷 %s", rojo, reset);
           break;
         case 2:
-          System.out.printf("%s 🂷 %s 7", rojo, reset);
+          System.out.printf("%s 🂸 %s", rojo, reset);
           break;
         case 3:
-          System.out.printf("%s 🂻 %s J", rojo, reset);
+          System.out.printf("%s 🂻 %s", rojo, reset);
           break;
         case 4:
-          System.out.printf("%s 🂽 %s Q", rojo, reset);
+          System.out.printf("%s 🂽 %s", rojo, reset);
           break;
         case 5:
-          System.out.printf("%s 🂾 %s K", rojo, reset);
+          System.out.printf("%s 🂾 %s", rojo, reset);
           break;
         case 6:
-          System.out.printf("%s 🂱 %s As", rojo, reset);
+          System.out.printf("%s 🂱 %s", rojo, reset);
           break;
         default:
           break;

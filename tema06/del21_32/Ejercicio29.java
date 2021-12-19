@@ -82,9 +82,9 @@ public class Ejercicio29 {
     System.out.println("Temperatura mínima: " + minima + "ºC");
     System.out.println("Temperatura máxima: " + maxima + "ºC");
     if (sol) {
-      System.out.println("Soleado");
+      System.out.println("🌞");
     } else {
-      System.out.println("Nublado");
+      System.out.println("🌥️");
     }
       
     System.out.println();
