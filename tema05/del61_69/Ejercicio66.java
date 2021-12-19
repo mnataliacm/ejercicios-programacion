@@ -19,7 +19,7 @@ public class Ejercicio66 {
     //variables
     int altura = 1;
     int espacio = 4;
-    String caracter = "*";
+    String caracter = "\033[31m*\033[0m";
     do {
       System.out.println();
       if ((altura < 3) || (altura % 2 == 0)) {

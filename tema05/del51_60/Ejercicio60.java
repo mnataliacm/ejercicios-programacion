@@ -15,8 +15,13 @@ public class Ejercicio60 {
     //variables
     String dibujo = "\033[31m*\033[39;49m";
     System.out.println();
+    System.out.print("\033[37m***\033[39;49m");
+    for (int i = 0; i < 5; i++) {
+      System.out.print(" ");
+    }
+    System.out.println("\033[37m***\033[39;49m");
     //altura calcetines
-    for (int h = 0; h < altura - 2; h++) {
+    for (int h = 0; h < altura - 3; h++) {
       for (int i = 0; i < 3; i++) {
         System.out.print(dibujo);
       }

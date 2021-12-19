@@ -49,7 +49,7 @@ public class Ejercicio59 {
     }
     System.out.println();
     //tronco arbol
-    for (int dibujo = 0; dibujo <= (altura / 2) + 1; dibujo++) {
+    for (int dibujo = 0; dibujo <= (linea - 3); dibujo++) {
       System.out.print(" ");
     }
     System.out.print("\033[33mYYY\033[39;49m");

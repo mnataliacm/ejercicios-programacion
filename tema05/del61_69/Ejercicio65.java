@@ -1,5 +1,3 @@
-import javax.xml.transform.stream.StreamSource;
-
 /**
  * Tema 5
  * Ejercicio 65
@@ -24,7 +22,7 @@ public class Ejercicio65 {
     do {
       System.out.print("Introduzca la altura de la A (un número mayor o igual a 3): ");
       altura = Integer.parseInt(System.console().readLine());
-      System.out.print("Introduzca la final donde va el palito horizontal ( entre 2 y 6): ");
+      System.out.print("Introduzca la final donde quieres que vaya el palito horizontal ( entre 2 y 6): ");
       fila = Integer.parseInt(System.console().readLine());
       if ((altura < 3) && (fila < 2) || (fila > 6)) {
         System.out.println();
@@ -42,11 +40,11 @@ public class Ejercicio65 {
     //resto de la A
     for (linea = 0; linea <= altura; linea++) {
       System.out.println();
-      for (int espacio = 1; espacio <= altura - linea +2; espacio++) { 
+      for (int espacio = 1; espacio <= altura - linea + 2; espacio++) { 
         System.out.print(" ");
       }
       System.out.print(caracter);
-      for (int hueco = 0; hueco <= (linea * 2) + 1; hueco++) { 
+      for (int hueco = 0; hueco <= (linea * 2); hueco++) { 
         System.out.print(" ");
       }
       System.out.print(caracter);
@@ -57,7 +55,7 @@ public class Ejercicio65 {
       System.out.print(" ");
     }
     //palito horizontal
-    for (int dibujo = 0; dibujo <= (linea * 2) + 1; dibujo++) {
+    for (int dibujo = 0; dibujo <= (linea * 2) ; dibujo++) {
         System.out.print(caracter);
     }
     //espacios parte inferior
@@ -67,7 +65,7 @@ public class Ejercicio65 {
       //parte inferior
       for (int i = 0; i < 2; i++) {
         System.out.print(caracter);
-        for (espacio = 1; espacio <= (linea * 2) + 2; espacio++) { 
+        for (espacio = 0; espacio <= (linea * 2); espacio++) { 
           System.out.print(" ");
         }
         System.out.println(caracter);
