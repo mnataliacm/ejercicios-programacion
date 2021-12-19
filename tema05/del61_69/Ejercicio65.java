@@ -65,7 +65,7 @@ public class Ejercicio65 {
       //parte inferior
       for (int i = 0; i < 2; i++) {
         System.out.print(caracter);
-        for (espacio = 0; espacio <= (linea * 2); espacio++) { 
+        for (espacio = 1; espacio <= (linea * 2); espacio++) { 
           System.out.print(" ");
         }
         System.out.println(caracter);
