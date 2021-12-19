@@ -13,11 +13,13 @@
 public class Ejercicio24 {
   public static void main(String[] args) {
 
+    System.out.println();
     System.out.println("___Programa para calcular la nómina___");
     System.out.println("________________MENÚ__________________");
     System.out.println("     1 - Programador junior");
     System.out.println("     2 - Programador senior");
     System.out.println("     3 - Jefe de proyecto");
+    System.out.println("--------------------------------------");
     System.out.print("Introduzca el cargo del empleado (1-3): ");
     int cargo = Integer.parseInt(System.console().readLine());
     double sueldo = 0.0;
@@ -44,6 +46,7 @@ public class Ejercicio24 {
     double sueldobruto = sueldo+dieta;
     System.out.print("Introduzca su estado civil (1:Soltero o 2:Casado): ");
     int estado = Integer.parseInt(System.console().readLine());
+    System.out.println();
     String irpf = "";
     double retencion =  0.0;
     switch (estado) {
@@ -60,7 +63,7 @@ public class Ejercicio24 {
         break;
     }
     double total = sueldobruto-retencion;
-
+    System.out.println("      CALCULADORA DE NÓMINAS ");
     System.out.print("┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓");
     System.out.printf("\n┃%-20s %15.2f %s", "Sueldo base:", sueldo, "€┃");
     System.out.printf("\n┃%-6s (%s) %18.2f %s", "Dietas", viaje, dieta, "€┃");
