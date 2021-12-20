@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  *
  * Tema 7
@@ -15,7 +14,6 @@ public class Ejercicio13 {
   public static void main(String[] args) {
     
     //variables
-    Scanner s = new Scanner (System.in);
     int[] n = new int[100];
     int maximo = 0;
     int minimo = 500;
@@ -35,7 +33,7 @@ public class Ejercicio13 {
     }
     System.out.println();
     System.out.print("¿Quieres encontrar el mayor o el menor?: ");
-    String buscar = s.nextLine();
+    String buscar = System.console().readLine();
     System.out.println();
     for (int i = 0; i < n.length; i++) {
       

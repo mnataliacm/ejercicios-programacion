@@ -1,6 +1,3 @@
-import java.util.Scanner;
-
-import javax.xml.transform.stream.StreamSource;
 /**
  *
  * Tema 7
@@ -18,7 +15,6 @@ public class Ejercicio17 {
   public static void main(String[] args) {
 
     //VARIABLES
-    Scanner s = new Scanner (System.in);
     int[] numeros = new int[10];
     int buscar = 0;
     int conteo = 0;
@@ -36,7 +32,7 @@ public class Ejercicio17 {
     do {
       System.out.println();
       System.out.print("Dime un número: ");
-      buscar = Integer.parseInt(s.nextLine());
+      buscar = Integer.parseInt(System.console().readLine());
       for (i = 0; i < 10; i++) {
         if (numeros[i] == buscar) {
           encontrado = true;

@@ -17,7 +17,6 @@ public class Ejercicio20 {
     //VARIABLES
     String[] reyes = new String[cantidad];
     String[] n = {" I", " II", " III", " IV", " V", " VI", " VII", " VIII", " IX", " X"};
-    String[] r = new String[cantidad];
     int conteo = 0;
     //PROGRAMA
     System.out.println("Introduce los nombres y pulsa enter tras cada uno: ");

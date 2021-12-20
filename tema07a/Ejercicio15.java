@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  *
  * Tema 7
@@ -19,7 +18,6 @@ public class Ejercicio15 {
   public static void main(String[] args) {
     
     //VARIABLES
-    Scanner s = new Scanner (System.in);
     int[] mesa = new int[10];
     int clientes = 0;
     //RELLENA MESA
@@ -47,7 +45,7 @@ public class Ejercicio15 {
       System.out.println("\n└───────────┴────┴────┴────┴────┴────┴────┴────┴────┴────┴────┘");
       System.out.println();
       System.out.print("¿Cuántos son? (introduzca -1 para salir del programa): ");
-      clientes = Integer.parseInt(s.nextLine());
+      clientes = Integer.parseInt(System.console().readLine());
       //COMPROBAR CLIENTES
       if (clientes > 4) {
         System.out.println(

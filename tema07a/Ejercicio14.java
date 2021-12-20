@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  *
  * Tema 7
@@ -16,13 +15,10 @@ public class Ejercicio14 {
   public static void main(String[] args) {
     
     //VARIABLES
-    Scanner s = new Scanner (System.in);
     String[] n = new String[8];
-    String[] noColor = new String[8];
     String[] r = new String[8];
     String[] colores = {"verde", "rojo", "azul", "amarillo", "naranja", "rosa", "negro", "blanco", "morado"};
     int conteo = 0;
-    int no = 0;
     
     //PROGRAMA
     System.out.println("Introduce 8 palabras entre ellas alguno de los siguientes colores");
@@ -33,7 +29,7 @@ public class Ejercicio14 {
     System.out.print(")\n");
     System.out.println("Pulsa enter tras cada palabra ...");
     for (int i = 0; i < 8; i++) {
-      n[i] = s.nextLine();
+      n[i] = System.console().readLine();
       //comprobar si es color
       for (String c : colores) {
         if (n[i].equals(c)) {

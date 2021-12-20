@@ -8,11 +8,11 @@
  *
  * @author Natalia Castillo Muñoz
  */
-public class Ejercicio13 {
+public class Ejercicio13a {
   public static void main(String[] args) {
 
     //variables
-    int num = (int)(Math.random() * 500);
+    //int num = (int)(Math.random() * 500);
     int[] n = new int[10];
     //programa
     System.out.println("Programa que busca máximo y mínimo");

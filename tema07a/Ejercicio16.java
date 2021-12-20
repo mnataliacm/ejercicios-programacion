@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  *
  * Tema 7
@@ -15,7 +14,6 @@ public class Ejercicio16 {
   public static void main(String[] args) {
 
     //variables
-    Scanner s = new Scanner (System.in);
     int[] n = new int[20];
     //programa
     System.out.println("__PROGRAMA QUE BUSCA MULTIPLOS DE 5 O DE 7__");
@@ -28,7 +26,7 @@ public class Ejercicio16 {
     }
     System.out.println();
     System.out.print("¿Que números quiere resaltar? (1 = múltiplos de 5, 2 = múltiplos de 7) : ");
-    int buscar = s.nextInt();
+    int buscar = Integer.parseInt(System.console().readLine());;
     for (int i = 0; i < n.length; i++) {
       if ((buscar == 1) && (n[i] % 5 == 0)) {
         System.out.print("[" + n[i] + "]" + " ");

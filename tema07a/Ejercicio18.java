@@ -1,4 +1,3 @@
-import java.util.Scanner;
 /**
  *
  * Tema 7
@@ -15,7 +14,6 @@ public class Ejercicio18 {
   public static void main(String[] args) {
 
     //VARIABLES
-    Scanner s = new Scanner (System.in);
     int[] n = new int[10];
     int[] resultado = new int[15];
     int conteoMenor = 0;
