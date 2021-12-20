@@ -18,7 +18,7 @@ public class Ejercicio28 {
     int numero = Integer.parseInt(System.console().readLine());
     System.out.println();
     //VARIABLES
-    int num = (int)(Math.random() * 201);
+    //int num = (int)(Math.random() * 201);
     int[] n = new int[numero];
     int[] r = new int[numero];
     int conteoPar = 0;

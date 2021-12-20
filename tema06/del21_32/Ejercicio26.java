@@ -1,6 +1,3 @@
-import java.util.Scanner;
-
-import javax.xml.transform.stream.StreamSource;
 /**
  * Tema 6
  * Ejercicio 26
@@ -16,8 +13,7 @@ public class Ejercicio26 {
   public static void main(String[] args) {
 
     //VARIABLES
-    int num = (int)(Math.random() * 4) + 1;
-    Scanner s = new Scanner (System.in);
+    //int num = (int)(Math.random() * 4) + 1;
     int ancho = 0;
     int alto = 0;
     int aPos = (int)(Math.random() * ancho);
@@ -25,9 +21,9 @@ public class Ejercicio26 {
     //PROGRAMA
     System.out.println();
     System.out.print("Introduce el ancho de la tableta de turrón: ");
-    ancho = s.nextInt();
+    ancho = Integer.parseInt(System.console().readLine());
     System.out.print("Introduce el alto de la tableta de turrón: ");
-    alto = s.nextInt();
+    alto = Integer.parseInt(System.console().readLine());
     //CALCULO BOCADO
     do {
       aPos = (int)(Math.random() * ancho) + 1;
