@@ -45,11 +45,11 @@
 
 ![tragaperras](https://user-images.githubusercontent.com/74043250/146621617-b120607d-0c64-4394-936b-cbd8eb59fd1a.png)
 
-### [Tema 07a  ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07a)
+### [Tema 07a ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07a)
 * Arrays de una dimensión
 * Recorrer arrays con for estilo foreach
 
 ![arrayMueve1Numero](https://user-images.githubusercontent.com/74043250/146642157-ad5fb40c-864e-41e5-a477-d5b4de28c086.png)
 
-### [Tema 07b  ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07)
+### [Tema 07b  ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07b)
 * Arrays de bidimensionales
