@@ -1,5 +1,7 @@
 package tema07b;
+
 import java.util.Scanner;
+
 /**
  * Tema 7b
  *
@@ -43,18 +45,11 @@ public class Ejercicio08 {
     for (int n = 8; n > 0; n -= 2) {
       System.out.println(n + white + "  " + red + "  " + white + "  " + red + "  " + white + "  " + red + "  " + white + "  " + red + "  " + reset + n + "\n" + (n - 1) + red + "  " + white + "  " + red + "  " + white + "  " + red + "  " + white + "  " + red + "  " + white + "  " + reset + (n - 1));
     }
-    System.out.println("\n");
-///////*NO FUNCIONA*/
-//    for (String l : letras) {
-//      for (int k = 1; k < 8; k++) {
-//        for (int i = 0; i < tablero.length; i++) {
-//          for (int j = 0; j < tablero[0].length; j++) {
-//            tablero[i][j] = l + String.valueOf(k);
-//          }
-//        }
-//      }
-//    }
-///////
+    System.out.print(" ");
+    for (String l : letras) {
+      System.out.print(l + " ");
+    }
+    System.out.println();
     for (int i = 0; i < tablero.length; i++) {
       switch (i) {
         case 0:
@@ -90,11 +85,6 @@ public class Ejercicio08 {
         tablero[i][j] = x + y;
       }
     }
-    for (String[] tablero1 : tablero) {
-      for (int j = 0; j < tablero[0].length; j++) {
-        System.out.print(tablero1[j] + " ");
-      }
-    }
     //CALCULO POSICION ALFIL
     for (int i = 0; i < 8; i++) {
       for (int j = 0; j < 8; j++) {
@@ -105,7 +95,7 @@ public class Ejercicio08 {
       }
     }
     //MUESTRO RESULTADO
-    System.out.println("\n");
+    System.out.println();
     System.out.println("El Álfil puede moverse a las siguientes posiciones: ");
     //BUSCO MOVIMIENTOS ALFIL
     //abajo izquierda
@@ -119,7 +109,7 @@ public class Ejercicio08 {
         System.out.print(tablero[xx--][yy--] + " ");
       } while ((xx != -1) && (yy != -1));
     }
-     //abajo derecha
+    //abajo derecha
     xx = a;
     yy = b;
     if (xx < 7 && yy > 0) {
@@ -157,9 +147,22 @@ public class Ejercicio08 {
 }
 //COMPROBACIONES
 //ver array
-//    System.out.print(" ");
-//    for (String l : letras) {
-//      System.out.print(l + " ");
+//    for (String[] tablero1 : tablero) {
+//      for (int j = 0; j < tablero[0].length; j++) {
+//        System.out.print(tablero1[j] + " ");
+//      }
 //    }
 //ver posicion
 //System.out.println("\nPosición: " + a + " " + b);
+
+///////*NO FUNCIONA ????*/
+//    for (String l : letras) {
+//      for (int k = 1; k < 8; k++) {
+//        for (int i = 0; i < tablero.length; i++) {
+//          for (int j = 0; j < tablero[0].length; j++) {
+//            tablero[i][j] = l + String.valueOf(k);
+//          }
+//        }
+//      }
+//    }
+///////
