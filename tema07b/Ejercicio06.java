@@ -40,13 +40,12 @@ public class Ejercicio06 {
 
           // Comprueba si el número generado ya está en el array.
           repite = false;
-          for (i = 0; i < 10 * fila + columna; i++) {
+          for (int i = 0; i < 10 * fila + columna; i++) {
             if (num[fila][columna] == num[i / 10][i % 10]) {
               repite = true;
             }
           }
         } while (repite);
-        
         if (num[fila][columna] < minimo) {
           minimo = num[fila][columna];
           minimoF = fila + 1;
