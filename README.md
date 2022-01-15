@@ -51,5 +51,12 @@
 
 ![arrayMueve1Numero](https://user-images.githubusercontent.com/74043250/146642157-ad5fb40c-864e-41e5-a477-d5b4de28c086.png)
 
-### [Tema 07b  ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07b)
+### [Tema 07b ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema07b)
 * Arrays de bidimensionales
+
+### [Tema 08 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema08)
+* Implementar funciones
+* Comentarios funciones
+* Bibliotecas de variables
+
+
