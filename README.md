@@ -56,7 +56,7 @@
 
 ![3enraya](https://user-images.githubusercontent.com/74043250/149630534-f46c938f-9d13-4796-8639-5dd0353b4c09.png)
 
-### [Tema 08 ✔](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema08)
+### [Tema 08 ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema08)
 * Implementar funciones
 * Comentarios funciones
 * Bibliotecas de variables
