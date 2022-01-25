@@ -1,3 +1,4 @@
+package tema05.del01_10;
 /**
  * Tema 5 Ejercicio 1 Programa que muestra los multiplos de 5 desde 0 hasta 100 usando un bucle for
  *

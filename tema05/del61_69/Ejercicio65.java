@@ -1,3 +1,4 @@
+package tema05.del61_69;
 import java.util.Scanner;
 /**
  * Tema 5

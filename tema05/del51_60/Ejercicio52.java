@@ -1,3 +1,4 @@
+package tema05.del51_60;
 /**
  * Tema 5
  * Ejercicio 52

@@ -1,3 +1,4 @@
+package tema05.del61_69;
 /**
  * Tema 5
  * Ejercicio 66

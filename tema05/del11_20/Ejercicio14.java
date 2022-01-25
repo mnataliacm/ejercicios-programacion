@@ -18,8 +18,6 @@ public class Ejercicio14 {
     for (int i = 1; i < exponente; i++) {
       resultado = resultado * base;
     }
-    if (resu)
     System.out.println("\nEl resultado de " + base + "^" + exponente + " es = " + resultado);
-  }
 }
 

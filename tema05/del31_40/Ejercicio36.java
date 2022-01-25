@@ -1,3 +1,4 @@
+package tema05.del31_40;
 /**
  * Tema 5
  * Ejercicio 36

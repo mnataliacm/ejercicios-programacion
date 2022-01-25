@@ -1,3 +1,4 @@
+package tema05.del21_30;
 /**
  * Tema 5
  * Ejercicio 25

@@ -1,3 +1,4 @@
+package tema05.del51_60;
 /**
  * 
  * Programa que pinta un arbol de navidad con adornos
