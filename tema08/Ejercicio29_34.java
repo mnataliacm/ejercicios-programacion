@@ -24,6 +24,7 @@ public class Ejercicio29_34 {
   *         <code>false</code> en caso contrario
   */
   public static int[][] generaArrayBiInt(int f, int c, int min, int max) {
+    int[][] a = new int[f][c];
     for (int i = 0; i < f; i++) {
       for (int j = 0; j < c; j++) {
         a[i][j] = (int)(Math.random() * (max - min + 1)) + min;
@@ -92,7 +93,6 @@ public class Ejercicio29_34 {
 //    }
 //    return null;
 //  }
-  
   public static String coordenadasArrayBiString(int[][] a, int n) {
     //int[] f = new int[a.length];
     //int[] c = new int[a.length];
@@ -103,14 +103,15 @@ public class Ejercicio29_34 {
       for (j = 0; j < a[0].length; j++) { 
         if (n == a[i][j]) {
           r = String.valueOf(i) + ", " + String.valueOf(j);
-
         } else {
           r = "{-1, -1}";
-
         }
+      }
+      }
     } while (n != a[i][j]);
     return r;
-  }
+    }
+    
   
   // FUNCIÓN INDICA SI UN NÚMERO ES PUNTO DE SILLA
   /**
