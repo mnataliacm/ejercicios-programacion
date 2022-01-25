@@ -1,3 +1,4 @@
+package tema04;
 /** * Tema 4
  * Ejercicio 6 
  * Programa que calcule el tiempo que tara un objeto en caer desde altura h.

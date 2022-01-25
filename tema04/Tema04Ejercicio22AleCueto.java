@@ -1,3 +1,4 @@
+package tema04;
 /**
  * Dado un dia de la semana, y una hora, calcula los minutos hasta el fin de semana.
  * 

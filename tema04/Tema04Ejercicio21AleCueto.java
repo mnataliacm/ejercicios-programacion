@@ -1,3 +1,4 @@
+package tema04;
 /**
  * Calcular la nota de un trimestre de Programación.
  * Pide 2 notas, si la media es menor de 5 pregunta por recuperación
