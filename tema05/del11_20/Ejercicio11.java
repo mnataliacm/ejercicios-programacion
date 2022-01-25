@@ -1,3 +1,4 @@
+package tema05.del11_20;
 /**
  * Tema 5
  * Ejercicio 11
@@ -21,8 +22,8 @@ public class Ejercicio11 {
   }
 }
 
-do {
-  numero++;
-  conteo ++;
-  System.out.println(" Número: " + numero + "   número²: " + numero * 2 + "   número³: " + numero*31);
-} while (conteo < 5);
+//do {
+//  numero++;
+//  conteo ++;
+//  System.out.println(" Número: " + numero + "   número²: " + numero * 2 + "   número³: " + numero*31);
+//} while (conteo < 5);

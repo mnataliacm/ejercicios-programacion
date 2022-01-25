@@ -1,3 +1,4 @@
+package tema05.del11_20;
 /**
  * Tema 5 Ejercicio 12 Programa que muestre los n primeros terminos de la serie
  * Fibonacci. primero = 0 segundo = 1 tercero = primero + segundo cuarto = segundo + tercero.
