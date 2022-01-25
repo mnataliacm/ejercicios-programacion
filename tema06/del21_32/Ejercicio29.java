@@ -1,3 +1,4 @@
+package tema06.del21_32;
 /**
  * Tema 6
  * Ejercicio 29

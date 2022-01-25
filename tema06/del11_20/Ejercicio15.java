@@ -1,3 +1,4 @@
+package tema06.del11_20;
 /**
  * Tema 6 Ejercicio 15 Programa generador de melodía con las siguientes
  * condiciones: Notas al azar, 7 notas num aleatorio de notas >= 4, <=28 y

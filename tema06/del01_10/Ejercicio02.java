@@ -1,3 +1,4 @@
+package tema06.del01_10;
 /**
  * Tema 6
  * Ejercicio 2
