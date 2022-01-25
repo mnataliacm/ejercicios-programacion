@@ -6,7 +6,12 @@ import java.util.Scanner;
  *
  * Ejercicio 18 Conversor entre todas las bases: decimal, binario, hexadecimal y
  * octal
- *
+ * 
+ * Biblioteca de java de decimal a los otros:
+ * Integer.toBinaryString(decimalInicial)
+ * Integer.parseInt(binario, 2)
+ * Integer.toOctalString(numeroDecimal)
+ * Integer.toHexString (númeroDecimal);
  *
  * @author Natalia Castillo Muñoz
  */

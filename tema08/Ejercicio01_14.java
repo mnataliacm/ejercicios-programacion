@@ -1,38 +1,129 @@
 package tema08;
-
+import java.util.Scanner;
 /**
  * Tema 8
  *
  * Ejercicio 1-14 
- * Biblioteca de funciones matemáticas que contenga las siguientes funciones. 
- * Recuerda que puedes usar unas dentro de otras si es necesario. 
- * Ten en cuenta lo que hace cada funcion ya que, si las implementas en el orden adecuaado te puedes ahorrar trabajo. Por ejemplo la función esCapicua resulta trivial teniendo voltea y la función siguientePrimo es más fácil de implementar teniendo esPrimo. 
- * FUNCIONES: 
- * 1. esCapicua: Devuelve verdadero si el número que se pasa como parámetro es capicúa y falso en caso
- * contrario. 
- * 2. esPrimo: Devuelve verdadero si el número que se pasa como parámetro es primo y falso en caso contrario. 
- * 3. siguientePrimo: Devuelve el menor primo que es mayor al número que se pasa como parámetro. 
- * 4. potencia: Dada una base y un exponente devuelve la potencia. 
- * 5. digitos: Cuenta el número de dígitos de un número entero. 
- * 6. voltea: Le da la vuelta a un número. 
- * 7. digitoN: Devuelve el dígito que está en la posición n de un número entero. Se empieza contando por el 0 y de izquierda a derecha. 
- * 8. posicionDeDigito: Da la posición de la primera ocurrencia de un dígito dentro de un número entero. Si no se encuentra, devuelve -1. 
- * 9. quitaPorDetras: Le quita a un número n dígitos por detrás (por la derecha). 
- * 10. quitaPorDelante: Le quita a un número n dígitos por delante (por la izquierda). 
- * 11. pegaPorDetras: Añade un dígito a un número por detrás. 
- * 12. pegaPorDelante: Añade un dígito a un número por delante. 
- * 13. trozoDeNumero: Toma como parámetros las posiciones inicial y final dentro de un número y devuelve el
- * trozo correspondiente. 
- * 14. juntaNumeros: Pega dos números para formar uno.
+ * Probar las funciones creadas
+ * 
+ * Biblioteca de funciones matemáticas
  *
  *
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio01_14 {
-
   public static void main(String[] args) {
 
+    //variables
+    Scanner s = new Scanner(System.in);
+    //int num = (int)(Math.random() * 4) + 1;
+    long n = 0;
+    int i = 0;
+    int f = 0;
+    long r = 0;
+    int conteo = 0;
+    System.out.print("Introduce un número entero positivo: ");
+    n = s.nextInt();
+    //CAPICÚA
+    System.out.println("COMPROBAR SI ES CAPICÚO");
+    if (esCapicua(n)) {
+      System.out.println("El número " + n + " es capicúo.");
+    } else {
+      System.out.println("El número " + n + " no es capicúo.");
+    }
+    //SI ES PRIMO
+    System.out.println("COMPROBAR SI ES PRIMO");
+    if (esPrimo(n)) {
+      System.out.println("El número " + n + " es primo.");
+    } else {
+      System.out.println("El número " + n + " no es primo.");
+    }
+    //SIGUIENTE PRIMO
+    System.out.println("BUSCAR SIGUIENTE PRIMO");
+    r = siguientePrimo(n);
+    System.out.println("El siguiente número primo es " + r);
+    //POTENCIA
+    System.out.println("CALCULAR LA POTENCIA");
+    System.out.print("Introduce la base: ");
+    int b = s.nextInt();
+    System.out.print("Introduce el exponente: ");
+    int e = s.nextInt();
+    long resultado = potencia(b, e);
+    System.out.println("La potencia es: " + resultado); 
+    //CONTAR DÍGITOS
+    System.out.println("CONTAR DÍGITOS DE UN NÚMERO");
+    System.out.println("El número " + n + " tiene " + digitos(n) + " dígitos.");
+    //VOTEAR NÚMERO
+    System.out.println("DÁ LA VUELTA A UN NÚMERO");
+    System.out.println("El número " + n + " del revés: " + voltea(n)); 
+    //POSICIÓN DEL DÍGITO N
+    System.out.println("POSICIÓN DE UN DÍGITO");
+    System.out.print("Introduce la posición: ");
+    int p = s.nextInt();
+    System.out.println("En la posición " + p + " está el dígito " + digitoN(n, p));
+    //BUSCA POSICIÓN DEL DÍGITO DADO
+    System.out.println("POSICIÓN DE UN DÍGITO");
+    System.out.print("Introduce el dígito a buscar: ");
+    int d = s.nextInt();
+    System.out.println("El dígito " + d + " está en la posición " + posicionDigito(n, d));
+    //QUITAR n DÍGITOS POR LA DERECHA
+    System.out.println("QUITAR DÍGITOS POR LA DERECHA");
+    System.out.print("¿Cuantos dígitos quieres quitar?: ");
+    d = s.nextInt();
+    System.out.println("El resultado es: " + quitaPorDetras(n, d));
+    //QUITAR n DÍGITOS POR LA IZQUIERDA
+    System.out.println("QUITAR DÍGITOS POR LA IZQUIERDA");
+    System.out.print("¿Cuantos dígitos quieres quitar?: ");
+    d = s.nextInt();
+    System.out.println("El resultado es: " + quitaPorDelante(n, d));
+    //PEGAR UN DÍGITO POR LA DERECHA
+    System.out.println("AÑADIR 1 DÍGITO POR LA DERECHA");
+    System.out.print("Introduce el dígito para añadir al final: ");
+    d = s.nextInt();
+    System.out.println("El resultado es: " + pegaPorDetras(n, d));
+    
+    //PEGAR UN DÍGITO POR LA IZQUIERDA
+    System.out.println("AÑADIR 1 DÍGITO POR LA IZQUIERDA");
+    System.out.print("Introduce el dígito para añadir al principio: ");
+    d = s.nextInt();
+    System.out.println("El resultado es: " + pegaPorDelante(n, d));
+    //CORTA UN TROZO DE UN NÚMERO
+    System.out.println("TROZO DE UN NÚMERO");
+    System.out.print("Introduce el primer dígito: ");
+    i = s.nextInt();
+    System.out.print("Introduce el último dígito: ");
+    f = s.nextInt();
+    System.out.println("El resultado es: " + trozoDeNumero(n, i, f));
+    //JUNTA DOS NÚMEROS
+    System.out.println("JUNTA DOS NÚMERO");
+    System.out.print("Introduce un número: ");
+    n = s.nextInt();
+    System.out.print("Introduce otro número: ");
+    i = s.nextInt();
+    System.out.println("El resultado es: " + juntaNumeros(n, i));
+    System.out.println("");
   }
+  //////////////////////////////////////FUNCIONES///////////////////////////////
+  // FUNCIÓN VOLTEAR NÚMERO
+  /**
+   * Le da la vuelta a un número
+   *
+   * @param x número entero dado
+   * @return el número del revés
+   */
+  public static long voltea(long x) {
+    long numero = x;
+    long ultimo = 0;
+    long numeroReves = 0;
+
+    while( numero > 0 ) {
+      ultimo = numero % 10;
+      numeroReves = numeroReves * 10 + ultimo;
+      numero /= 10;
+   }
+    return numeroReves;
+  }
+  
   // FUNCIÓN CAPICÚA
   /**
    * Devuelve verdadero si el número que se pasa como parámetro es capicúa y
@@ -44,19 +135,7 @@ public class Ejercicio01_14 {
    * 
    */
   public static boolean esCapicua(long x) {
-    long numero = x;
-    long ultimo;
-    long numeroReves = 0;
-    while (numero > 0) {
-      ultimo = numero % 10;
-      numeroReves = numeroReves * 10 + ultimo;
-      numero /= 10;
-    }
-    if (x == numeroReves) {
-      return true;
-    } else {
-      return false;
-    }
+    return x == voltea(x);
   }
 
   // FUNCIÓN PRIMOS
@@ -65,8 +144,8 @@ public class Ejercicio01_14 {
    * cuando únicamente es divisible entre él mismo y la unidad.
    *
    * @param x un número entero positivo
-   * @return <code>true</code> si el número es primo <code>false</code> en caso
-   * contrario
+   * @return <code>true</code> si el número es primo 
+   *         <code>false</code> en caso contrario
    */
   public static boolean esPrimo(long x) {
     for (int i = 2; i < x; i++) {
@@ -96,7 +175,7 @@ public class Ejercicio01_14 {
     return p;
   }
 
-  //FUNCIÓN POTENCIA
+  // FUNCIÓN POTENCIA
   /**
    * Dada una base y un exponente devuelve la potencia
    *
@@ -112,7 +191,7 @@ public class Ejercicio01_14 {
       return r;
   }
   
-  //FUNCIÓN CONTAR DÍGITOS
+  // FUNCIÓN CONTAR DÍGITOS
   /**
    * Cuenta el número de dígitos de un número entero
    *
@@ -120,63 +199,33 @@ public class Ejercicio01_14 {
    * @return los dígitos del número
    */
   public static int digitos(long x) {
-    int cortar = 10;
     int conteo = 0;
-    //contar dígitos
-    while (x > 0) {
-      x = x / 10;
-      cortar *= 10;
+    do {
+      x /= 10;
       conteo++;
-    }
+    } while (x > 0);
     return conteo;
   }
   
-  //FUNCIÓN VOLTEAR NÚMERO
-  /**
-   * Le da la vuelta a un número
-   *
-   * @param x un número entero
-   * @return el número del revés
-   */
-  public static long voltea(long x) {
-    long numero = x;
-    long ultimo = 0;
-    long numeroReves = 0;
-
-    while( numero > 0 ) {
-      ultimo = numero % 10;
-      numeroReves = numeroReves * 10 + ultimo;
-      numero /= 10;
-   }
-    return numeroReves;
-  }
-  
-   //FUNCIÓN DÍGITO n
+  // FUNCIÓN DÍGITO n
   /**
    * Devuelve el dígito que está en la posición dada
    * Se empieza por el 0 de izq a der
    *
    * @param x número
    * @param y posición
-   * @return la posición del dígito
+   * @return el dígito que hay en esa posicion
    */
-  public static long digitoN(long x, int y) {
-    int cortar = 10;
-    long num = x;
-    int conteo = 0;
-    while (num != 0) {
-      num = num / 10;
-      cortar *= 10;
+  public static int digitoN(long x, int y) {
+    long n = voltea(x);
+    while (y > 0) {      
+      y--;
+      n /= 10;
     }
-    while (conteo <= y) {
-      cortar /= 10;
-      num = (x / cortar) % 10;
-      conteo++;
-    }
-    return num;
+    return (int) n % 10;
   }
   
-  //FUNCIÓN POSICIÓN DE UN DÍGITO
+  // 8 FUNCIÓN POSICIÓN DE UN DÍGITO
   /**
    * Devuelve la posición de la primera ocurrencia de un dígito dentro de un número entero, si no la encuentra devuelve -1
    *
@@ -185,23 +234,19 @@ public class Ejercicio01_14 {
    * @return la posición del dígito
    */
   public static int posicionDigito(long x, int y) {
-    int cortar = 10;
-    long num = x;
-    int conteo = 0;
-    while (num != 0) {
-      num = num / 10;
-      cortar *= 10;
-    }
-     while (num != y) {
-      cortar /= 10;
-      num = (x / cortar) % 10;
+    int digitos = digitos(x);
+    int conteo = 1;
+    long cortar = potencia(10, digitos -1);
+    long n = x / cortar;
+    while (n != y) {     
       conteo++;
+      cortar /= 10;
+      n = (x / cortar) % 10;
     }
-    return conteo - 1;
-  }
-  /////////////////////////FALLA!!!
+    return conteo;
+  }  
   
-  //FUNCIÓN QUITAR DÍGITOS POR LA DERECHA
+  // 9 FUNCIÓN QUITAR DÍGITOS POR LA DERECHA
   /**
    * Le quita a un número n dígitos por detrás (por la derecha)
    *
@@ -215,7 +260,7 @@ public class Ejercicio01_14 {
     return n;
   }
   
-  //FUNCIÓN QUITAR DÍGITOS POR LA IZQUIERDA
+  // 10 FUNCIÓN QUITAR DÍGITOS POR LA IZQUIERDA
   /**
    * Le quita a un número n dígitos por delante (por la izquierda)
    *
@@ -224,13 +269,13 @@ public class Ejercicio01_14 {
    * @return el número resultado
    */
   public static long quitaPorDelante(long x, int y) {
-    int conteo = digitos(x);
-    long cortar = potencia(10, conteo - y);
-    long n = x % cortar;
+    long n = voltea(x);
+    n = quitaPorDetras(n, y);
+    n = voltea(n);
     return n;
   }
   
-  //FUNCIÓN AÑADIR DÍGITO POR LA DERECHA
+  // 11 FUNCIÓN AÑADIR DÍGITO POR LA DERECHA
   /**
    * Le añade al número dado un dígito detrás
    *
@@ -243,7 +288,7 @@ public class Ejercicio01_14 {
     return Integer.valueOf(r);
   }
   
-  //FUNCIÓN AÑADIR DÍGITO POR LA IZQUIERDA
+  // 12 FUNCIÓN AÑADIR DÍGITO POR LA IZQUIERDA
   /**
    * Le añade al número dado un dígito delante
    *
@@ -256,7 +301,7 @@ public class Ejercicio01_14 {
     return Long.parseLong(r);
   }
   
-  //FUNCIÓN DEVUELVE UN TROZO DE UN NÚMERO
+  // 13 FUNCIÓN DEVUELVE UN TROZO DE UN NÚMERO
   /**
    * Devuelve el trozo correspondiente tomando como parámetros inicial y final dentro de un número.
    *
@@ -271,7 +316,7 @@ public class Ejercicio01_14 {
     return x; 
   }
   
-  //FUNCIÓN JUNTA DOS NÚMEROS
+  // 14 FUNCIÓN JUNTA DOS NÚMEROS
   /**
    * Pega dos números para formar uno
    *
