@@ -1,3 +1,4 @@
+package tema02;
 /**
  * Tema 2
  * Ejercicio 5, crea un conversor de euros a pesetas.
