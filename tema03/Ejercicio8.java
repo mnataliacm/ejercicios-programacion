@@ -20,6 +20,5 @@ public class Ejercicio8 {
     double salario = (horas*euros);
     
     System.out.printf(" El salario de esta semana es de: %.2f euros" ,salario);
-    
   }
 }

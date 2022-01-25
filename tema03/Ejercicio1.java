@@ -21,5 +21,6 @@ public class Ejercicio1 {
     
     System.out.print(numero1 * numero2);
     
+    
   }
 }

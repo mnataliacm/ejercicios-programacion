@@ -17,7 +17,6 @@ public class Ejercicio12 {
     
     double nota = ((notaTrimestre*1)-(examen*0.4))/0.6;
     
-    System.out.printf(" Para tener "+notaTrimestre+" necesitas sacar en el segundo examen un " +nota);
-    
+    System.out.printf(" Para tener "+notaTrimestre+" necesitas sacar en el segundo examen un " +nota); 
   }
 }

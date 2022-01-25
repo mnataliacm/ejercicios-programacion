@@ -18,7 +18,5 @@ public class Ejercicio3 {
     double euros = conversor/166.386;
     
     System.out.printf("La cantidad de: " + pesetas + " pesetas son: %.2f", euros, " euros");
-    
-    
   }
 }

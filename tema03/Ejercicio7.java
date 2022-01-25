@@ -20,6 +20,5 @@ public class Ejercicio7 {
     double factura = (base+calculoIva);
     
     System.out.println(" El IVA es : 21% \n El total de la factura es: " + factura);
-    
   }
 }

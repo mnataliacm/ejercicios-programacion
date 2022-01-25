@@ -17,6 +17,5 @@ public class Ejercicio10 {
     int kiB = megas * 1024;
     
     System.out.println("El resultado es: " + kB + " kB y " + kiB + " kiB");
-    
   }
 }

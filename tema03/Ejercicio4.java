@@ -27,6 +27,5 @@ public class Ejercicio4 {
     System.out.println( "--Operar con 2 números---");
     
     System.out.print(" La suma es: " + suma + "\n La resta es: " + resta + "\n La multiplicación es: " + multiplicacion + "\n La división es: "+ division);
-    
   }
 }

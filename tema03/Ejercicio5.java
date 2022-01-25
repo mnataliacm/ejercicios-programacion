@@ -22,7 +22,6 @@ public class Ejercicio5 {
     
     int area = lado1*lado2;
     
-    System.out.printf("El área del rectángulo es: " + area);
-    
+    System.out.printf("El área del rectángulo es: " + area); 
   }
 }

@@ -23,6 +23,5 @@ public class Ejercicio6 {
     int area = (base*altura)/2;
     
     System.out.printf("El área del triángulo es: " + area);
-    
   }
 }

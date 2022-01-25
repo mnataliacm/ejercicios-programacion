@@ -16,7 +16,6 @@ public class Ejercicio11 {
     double MB = kilob / 1000;
     double MiB = (double)kilob / 1024;
     
-    System.out.println("El resultado es: " + MB + " MB y " + MiB + " MiB");
-    
+    System.out.println("El resultado es: " + MB + " MB y " + MiB + " MiB"); 
   }
 }

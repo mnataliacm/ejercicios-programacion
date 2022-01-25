@@ -24,6 +24,5 @@ public class Ejercicio9 {
     double volumen = pi*(radio*radio)*altura/3;
     
     System.out.printf("El volumen del cono es: %.2f cm³", volumen);
-    
   }
 }
