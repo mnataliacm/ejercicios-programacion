@@ -1,4 +1,3 @@
-package tema08;
 /**
  * Tema 8
  * 
@@ -42,8 +41,8 @@ public class Ejercicio29_34 {
   * @return muestra la linea indicada
   */
   public static int[] filaArrayBiInt(int[][] a, int f) {
-    int[] r = new int[a[0].length];
-    for (int i = 0; i < a[0].length; i++) {
+    int[] r = new int[a.length];
+    for (int i = 0; i < a.length; i++) {
       r[i]= a[f][i];
       }
     return r;
@@ -73,44 +72,45 @@ public class Ejercicio29_34 {
   * @param n número a buscar
   * @return si el número está devuelve sus coordenadas y si no devuelve {-1, -1}
   */
-//  public static int[] coordenadasArrayBiInt(int[][] a, int n) {
-//    //int[] f = new int[a.length];
-//    //int[] c = new int[a.length];
-//    boolean esta = false;
-//    int[] r = new int[2];
-//    for (int i = 0; i < a.length; i++) {
-//      for (int j = 0; j < a[0].length; j++) { 
-//        if (n == a[i][j]) {
-//          r[0] = i;
-//          r[1] = j;
-//          esta = true;
-//        }
-//      }
-//    }
-//    if (!esta) {
-//      r[0] = -1;
-//      r[1] = -1;
-//    }
-//    return null;
-//  }
+  public static int[] coordenadasArrayBiInt(int[][] a, int n) {
+    for (int i = 0; i < a.length; i++) {
+      for (int j = 0; j < a[0].length; j++) { 
+        if (n == a[i][j]) {
+          int[] r = {i, j};
+          return r;
+        }
+      }
+    }
+    int[] r = {-1, -1};
+    return r;
+  }
   public static String coordenadasArrayBiString(int[][] a, int n) {
     //int[] f = new int[a.length];
     //int[] c = new int[a.length];
     String r = "";
-    int j = 0;
-    do {      
+    boolean esta = false;
+    int f = 0;
+    int c = 0;
+    //do {  
       for (int i = 0; i < a.length; i++) {
-      for (j = 0; j < a[0].length; j++) { 
-        if (n == a[i][j]) {
-          r = String.valueOf(i) + ", " + String.valueOf(j);
-        } else {
-          r = "{-1, -1}";
-        }
+	      for (int j = 0; j < a[0].length; j++) { 
+	        if (n == a[i][j]) {	
+	          f = i;
+	          c = j;
+	          esta = true;
+	        } else {
+	         esta = false;
+	        }
+	      }
       }
-      }
-    } while (n != a[i][j]);
-    return r;
-    }
+    //} while (esta);
+    if (esta) {
+    	r = String.valueOf(f) + ", " + String.valueOf(c);
+    } else {
+    	r = "{-1, -1}";
+    }  
+	return r; 
+  }
     
   
   // FUNCIÓN INDICA SI UN NÚMERO ES PUNTO DE SILLA
@@ -122,39 +122,50 @@ public class Ejercicio29_34 {
   * @return true si es punto de silla false si no lo es
   */
   public static boolean esPuntoDeSilla(int[][] a, int n) {
-    int max = Integer.MIN_VALUE;
-    int min = Integer.MAX_VALUE;
-    int r = coordenadasArrayBiInt(a, n);
-    if (n == a[]) {
-      return true;
-    } else {
-      return false;
-    }
-    
-    
+	  int[] r = coordenadasArrayBiInt(a, n);
+	  int f = r[0];
+	  int c = r[1];
+	  int[] fila = filaArrayBiInt(a, f);
+	  int[] columna = columnaArrayBiInt(a, c);
+	  
+	  if ((Ejercicio20_28.minimoArrayInt(fila) == n) & (Ejercicio20_28.maximoArrayInt(columna) == n)) {
+		  return true;
+	  } else {
+		  return false;
+	  }   
   }
   
-  // FUNCIÓN MUESTRA COORDENADAS DEL NÚMERO n DEL ARRAY BIDIRECCIONAL
+  // FUNCIÓN MUESTRA UNA DIAGONAL INDICADA SEGÚN FILA Y COLUMNA
   /**
-  * Devuelve las coordenadas del número n dado dentro del array
+  * Devuelve la diagonal en la dirección indicada según fila y columna dadas
   *
   * @param a[][] array
-  * @param n número a buscar
-  * @return si el número está devuelve sus coordenadas y si no devuelve {-1, -1}
+  * @param f indica la fila
+  * @param c indica la columna
+  * @param direccion indicando diagonal 
+  <code>nose</code> si va de arriba izquierda hacia abajo derecha 
+  <code>neso</code> si va de arriba derecha hacia abajo izquierda
+  * @return la diagonal resultado
   */
-  public static String diagonal(int[][] a, int n) {
-    //int[] f = new int[a.length];
-    //int[] c = new int[a.length];
-    String r = "";
-    for (int i = 0; i < a.length; i++) {
-      for (int j = 0; j < a[0].length; j++) { 
-        if (n == a[i][j]) {
-          r = String.valueOf(i) + ", " + String.valueOf(j);
-        } else {
-          r = "{-1, -1}";
-        }
+  public static int[] diagonal(int[][] a, int f, int c, String direccion) {
+    int n = a.length + a[0].length;
+    int[] d = new int[n];
+    int conteo = 0;
+    int i, j;
+	
+    for (i = 0; i < a.length; i++) {
+      for (j = 0; j < a[0].length; j++) { 
+        if ((((f - i) == (c - j)) && (direccion.equals("nose"))) || (((i - f) == (c - j)) && (direccion.equals("neso")))) {
+			d[conteo++] = a[i][j];
+		}
       }
-      }
-    return r;
+    }
+    int [] diagonal = new int[conteo];
+    for (int k = 0; k < conteo; k++) {
+		diagonal[k] = d[k];
+	}
+    return diagonal;
+    
+    
   } 
 }

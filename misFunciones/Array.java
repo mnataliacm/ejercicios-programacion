@@ -24,7 +24,6 @@ public class Arrays {
     }
     return num;
   }
-  
    // FUNCIÓN MINIMO DE UN ARRAY
   /**
   * Devuelve el minimo número que hay en un array

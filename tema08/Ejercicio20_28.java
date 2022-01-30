@@ -1,4 +1,5 @@
-package tema08;
+import com.sun.tools.javac.code.Attribute.Array;
+
 /**
  * Tema 8
  * 
@@ -74,7 +75,6 @@ public class Ejercicio20_28 {
     }
     return maximo;
   }
-  
   // 4 FUNCIÓN MEDIA DE UN ARRAY
   /**
   * Devuelve la media de un array

@@ -5,3 +5,4 @@ temp*.java
 Ejerciciox.java
 *.pdf
 *.png
+/bin/
