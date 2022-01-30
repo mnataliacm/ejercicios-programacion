@@ -1,7 +1,4 @@
-package tema08;
-
 import java.util.Scanner;
-
 /**
  * Tema 8
  * 
@@ -9,7 +6,7 @@ import java.util.Scanner;
  *
  * @author Natalia Castillo Muñoz
  */
-public class probando {
+public class probando01_14 {
   public static void main(String[] args) {
 
     //variables
