@@ -6,3 +6,5 @@ Ejerciciox.java
 *.pdf
 *.png
 bin
+.class*
+.pro*
