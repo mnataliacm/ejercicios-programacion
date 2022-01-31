@@ -1,4 +1,4 @@
-package funciones;
+package misFunciones;
 /**
  * 
  * Funciones con arrays bidireccionales

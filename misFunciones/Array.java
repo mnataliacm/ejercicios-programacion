@@ -1,4 +1,4 @@
-package funciones;
+package misFunciones;
 /**
  * Funciones usando array:
  * Generar array, buscar mayor y menor, posición, etc

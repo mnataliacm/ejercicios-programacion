@@ -1,4 +1,4 @@
-package funciones;
+package misFunciones;
 /**
  * Funciones matemáticas: 
  * Generar números aleatorios, voltear número, comprobar si es primo, capicúa, ...
