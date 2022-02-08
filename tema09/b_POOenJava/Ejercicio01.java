@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava;
+package ejercicios.tema09.b_POOenJava; 
 /**
  * Tema 9 
  * Ejercicio 1 probando Caballo.java

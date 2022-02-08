@@ -6,4 +6,5 @@ package ejercicios.tema09.b_POOenJava;
  */
 public class Vehiculo {
   
+  
 }
