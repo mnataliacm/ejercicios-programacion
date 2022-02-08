@@ -1,0 +1,56 @@
+EJERCICIO 1
+¿Cuáles serían los atributos de la clase PilotoDeFormula1? ¿Se te ocurren algunas
+instancias de esta clase?
+
+* Atributos: nombre, apellidos, peso, altura, talla, escuderia, premios, 
+* Instancias: escuderias, circuitos, coches, pilotos, 
+
+EJERCICIO 2
+A continuación tienes una lista en la que están mezcladas varias clases con
+instancias de esas clases. Para ponerlo un poco más difícil, todos los elementos
+están escritos en minúscula. Di cuáles son las clases, cuáles las instancias,
+a qué clase pertenece cada una de estas instancias y cuál es la jerarquía
+entre las clases: paula, goofy, gardfiel, perro, mineral, caballo, tom, silvestre,
+pirita, rocinante, milu, snoopy, gato, pluto, animal, javier, bucefalo, pegaso,
+ayudante_de_santa_claus, cuarzo, laika, persona, pato_lucas.
+
+* Clases: Mineral, Animal, Persona
+* Instancias:
+  - Mineral: pirita, cuarzo, 
+  - Animal: perro, caballo, gato, rocinante, bucéfalo, laika, 
+  - Persona: paula, javier, 
+  - Animados: goofy, gardfield, tom, silvestre, rocinante, milú, snoopy, pluto, pegaso, ayudante_de_santa_claus, pato_lucas
+
+EJERCICIO 3
+¿Cuáles serían los atributos de la clase Vivienda? ¿Qué subclases se te ocurren?
+
+* Atributos: m2, habitaciones, baños, plantas, jardin, ascensor, cochera, 
+*Subclases: adosado, pareado, chalet, casa_mata, piso,
+
+EJERCICIO 4
+Piensa en la liga de baloncesto, ¿qué 5 clases se te ocurren para representar 5
+elementos distintos que intervengan en la liga?
+
+* Equipos, Patrocinador, Jugador, Arbitros, Estadios, 
+
+EJERCICIO 5
+Haz una lista con los atributos que podría tener la clase caballo. A continuación
+haz una lista con los posibles métodos (acciones asociadas a los caballos).
+
+* nombre, raza, color, f_nacim, 
+* relinchar, galopar, pasear, comer, trotar, 
+
+EJERCICIO 6
+Lista los atributos de la clase Alumno ¿Sería nombre uno de los atributos de la clase?
+Razona tu respuesta.
+
+* n_matricula, dni, nombre, apellidos, padre, madre, dirección, telefono, curso, asignaturas, notas, expediente,
+* Si ya que es una característica que tienen todos los alumnos
+
+EJERCICIO 7
+¿Cuáles serían los atributos de la clase Ventana (de ordenador)? ¿cuáles serían los
+métodos? Piensa en las propiedades y en el comportamiento de una ventana
+de cualquier programa.
+
+* menu, barra de navegación, iconos, menu_contextual, color, fondo, 
+*Metodos: abrir, cerrar, minimizar, propiedades, copiar, pegar, 
