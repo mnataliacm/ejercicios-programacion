@@ -79,4 +79,4 @@
 * Recogida de datos en JSP
 * POO en JSP
 
-![TirarLosDados](https://raw.githubusercontent.com/mnataliacm/ejercicios-programacion/tree/README/tiralosdados.png)
+![TirarLosDados](https://user-images.githubusercontent.com/74043250/153724866-5efb5fba-41bf-4ca9-ace7-620fde0b8552.png)
