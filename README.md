@@ -61,4 +61,22 @@
 * Comentarios funciones
 * Bibliotecas de variables
 
+### [Tema 09 ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema09)
+##### POO
+* Clases y Objetos
+* Encapsulamiento y ocultación
+* Métodos
+* Elementos de clase public, protected y private
+* Herencia
+* Atributos y métodos de clase (static)
+* Interfaces
+* Arrays con objetos
 
+### [Tema 12 ](https://github.com/mnataliacm/ejercicios-programacion/tree/main/tema012)
+##### JSP
+* Aplicaciones web en Java
+* Mezclando Java con HTML
+* Recogida de datos en JSP
+* POO en JSP
+
+![TirarLosDados](https://raw.githubusercontent.com/mnataliacm/ejercicios-programacion/tree/README/tiralosdados.png)
