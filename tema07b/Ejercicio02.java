@@ -79,5 +79,6 @@ public class Ejercicio02 {
 
     System.out.println("\n       ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴──────────────╯");
     System.out.println();
+    s.close();
   }
 }

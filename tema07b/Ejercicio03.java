@@ -41,7 +41,7 @@ public class Ejercicio03 {
     }
     System.out.printf(" Σ%8d  |", suma);
     suma = 0;
-   System.out.println("\n       ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼──────────────┤");
+    System.out.println("\n       ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼──────────────┤");
     System.out.print("Fila 2 │");
     for (int i = 0; i < 5; i++) {
       System.out.printf("%8d   |", n[1][i]);
@@ -81,5 +81,6 @@ public class Ejercicio03 {
 
     System.out.println("\n       ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴──────────────╯");
     System.out.println();
+    s.close();
   }
 }

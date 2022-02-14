@@ -143,6 +143,7 @@ public class Ejercicio08 {
       } while ((xx != 8) && (yy != 8));
     }
     System.out.println();
+    s.close();
   }
 }
 //COMPROBACIONES

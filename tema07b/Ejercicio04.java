@@ -99,5 +99,6 @@ public class Ejercicio04 {
 
     System.out.println("\n       ╰─────────────┴─────────────┴─────────────┴─────────────┴─────────────┴──────────────╯");
     System.out.println();
+    s.close();
   }
 }

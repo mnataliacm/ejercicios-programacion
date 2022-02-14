@@ -22,7 +22,7 @@ public class Ejercicio10J2 {
     int jugador1 = 0;
     int jugador2 = 0;
     Boolean siVacio = false;
-    Boolean fin = false;
+    //Boolean fin = false;
     //int pc = (int) (Math.random() * 10) + 1;
     int[][] n = new int[3][3];
     String[][] ocupada = new String[3][3];
@@ -134,5 +134,6 @@ public class Ejercicio10J2 {
       conteo = conteo1 + conteo2;
     } while (conteo < 10);
     System.out.println("");
+    s.close();
   }
 }

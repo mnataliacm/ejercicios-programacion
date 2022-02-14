@@ -26,12 +26,6 @@ public class Ejercicio06 {
     boolean repite;
     int fila = 0;
     int columna = 0;
-    int[] n = new int[60];
-    //PROGRAMA  
-    //GENERAR ARRAY, COMPROBAR REPETIDOS Y BUSCAR MAX Y MIN
-//    for (int i = 0; i < 10; i++) {
-//      n[i] = (int)(Math.random() * 61);
-//    }
     
     for(fila = 0; fila < 6; fila++) {
       for(columna = 0; columna < 10; columna++) {
