@@ -260,6 +260,87 @@ public class Matematicas {
     return r ;
   }
   
+  // FUNCION CONVERTIR AL SISTEMA DE PALOTES
+  /**
+  * Convierte los dígitos de un números al sistema de "palotes"
+  *
+  * @param n número decimal
+  * @return el numero convertido al sistema "palotes"
+  */
+	public static String convierteEnPalotes(long n) {
+		String palotes = "";		
+		int conteo = Matematicas.digitos(n);
+		long numReves = Matematicas.voltea(n);
+		long numero = numReves;
+		do {
+			numero = numReves % 10;
+			for (int i = 0; i < numero; i++) {
+				palotes += "|";
+			}
+			conteo--;
+			numReves = numReves / 10;
+			if (conteo > 0) {
+				palotes += "-";
+			}
+		} while (conteo > 0);
+		return palotes;
+	}
+  
+   //FUNCION QUE CONVIERTE Nº A MORSE
+  /**
+   * Convierte un número dado al código morse
+   * 
+   * @param n numero dado
+   * @return el número dado convertido a código morse
+   */
+  public static String convierteEnMorse(int n) {
+    String morse = "";		
+		int conteo = Matematicas.digitos(n);
+		long numReves = Matematicas.voltea(n);
+		long numero = 0;
+    
+		do {
+			numero = numReves % 10;
+      switch ((char)(numero)){
+        case 0:
+          morse += "-----";
+          break;
+          case 1:
+          morse += ".----";
+          break;
+          case 2:
+          morse += "..---";
+          break;
+          case 3:
+          morse += "...--";
+          break;
+          case 4:
+          morse += "....-";
+          break;
+          case 5:
+          morse += ".....";
+          break;
+          case 6:
+          morse += "-....";
+          break;
+          case 7:
+          morse += "--...";
+          break;
+          case 8:
+          morse += "---..";
+          break;
+          case 9:
+          morse += "----.";
+          break;
+        default:
+          break;
+      }
+      conteo--;
+			numReves = numReves / 10;
+		} while (conteo > 0);
+    return morse;
+	}  
+
   
   
 }

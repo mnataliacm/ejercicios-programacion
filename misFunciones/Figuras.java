@@ -13,8 +13,8 @@ public class Figuras {
   /**
    * Dibuja una linea de tamaño n con el caracter dibujo
    *
-   * @param n tamaño de la linea
-   * @param borde comienzo y fin de la linea
+   * @param n      tamaño de la linea
+   * @param borde  comienzo y fin de la linea
    * @param centro caracter a dibujar
    * @return una linea de tamaño n con el simbolo dado
    */
@@ -25,19 +25,19 @@ public class Figuras {
     } else {
       resultado += "" + borde;
       for (int i = 0; i < n - 2; i++) {
-      resultado += "" + centro;
+        resultado += "" + centro;
       }
       resultado += "" + borde;
     }
     return resultado;
   }
-  
-   // DIBUJAR espacios
+
+  // DIBUJAR espacios
   /**
    * Dibuja espacios en blanco
    *
    * @param n tamaño de la linea
-   * @return espacios 
+   * @return espacios
    */
   public static String espacios(int n) {
     return linea(n, ' ', ' ');
@@ -96,6 +96,29 @@ public class Figuras {
     return resultado;
   }
 
+  // PIRÁMIDE NORMAL DEL REVÉS
+  /**
+   * Dibuja una pirámide del revés con la altura dada y con el caracter introducido
+   *
+   * @param altura de la pirámide
+   * @param dibujo carácter a dibujar
+   * @return dibujo piramide con la altura dada
+   */
+  // public static String piramideReves(int altura, char dibujo) {
+  //   String resultado = "";
+  //   for (int linea = altura; linea > 0; linea--) {
+  //     for (int espacio = altura - linea; espacio > 0; espacio--) {
+  //       resultado += " ";
+  //     }
+  //     for (int i = 0; i <= (linea * 2) - 2; i++) {
+  //       resultado += dibujo;
+  //     }
+  //     resultado += "\n";
+  //   }
+
+  //   return resultado;
+  // }
+
   // PIRÁMIDE HUECA
   /**
    * Dibuja una pirámide hueca con la altura dada y con el caracter introducido
@@ -106,47 +129,47 @@ public class Figuras {
    * @return dibujo de la piramide
    */
   public static String piramideHueca(int altura, char dibujo) {
-    //espacios pico
+    // espacios pico
     String resultado = "\n";
-    for (int espacio = 1; espacio < altura; espacio++) { 
+    for (int espacio = 1; espacio < altura; espacio++) {
       resultado += " ";
     }
-    //pico pirámide
+    // pico pirámide
     resultado += dibujo;
     resultado += "\n";
-    //cuerpo pirámide
+    // cuerpo pirámide
     for (int linea = 1; linea < altura - 1; linea++) {
-      for (int espacio = 1; espacio < altura - linea; espacio++) { 
+      for (int espacio = 1; espacio < altura - linea; espacio++) {
         resultado += " ";
       }
       resultado += dibujo;
-      for (int espacio = 0; espacio < (linea * 2) -  1; espacio++) { 
+      for (int espacio = 0; espacio < (linea * 2) - 1; espacio++) {
         resultado += " ";
       }
       resultado += dibujo;
       resultado += "\n";
     }
-    //base pirámide
-    altura = altura *2 -3;
+    // base pirámide
+    altura = altura * 2 - 3;
     resultado += linea(altura, dibujo, dibujo);
     return resultado;
   }
-  
+
   // DIBUJA UN RECTÁNGULO
   /**
    * Dibuja un rectángulo dada la altura, el ancho y el carácter a dibujar
    *
    * @param altura del rectángulo
-   * @param ancho del resctángulo
+   * @param ancho  del resctángulo
    * @param dibujo carácter a usar para dibujar
    * @return dibujo del rectángulo
    */
   public static String rectangulo(int altura, int ancho, char dibujo) {
     String resultado = "";
-    //parte superior
-      resultado += linea(ancho - 1, dibujo, dibujo);
+    // parte superior
+    resultado += linea(ancho - 1, dibujo, dibujo);
     resultado += "\n";
-    //parte central
+    // parte central
     for (int h = 0; h < altura / 2 + 1; h++) {
       resultado += dibujo;
       for (int i = 1; i < (ancho - 2); i++) {
@@ -154,44 +177,15 @@ public class Figuras {
       }
       resultado += dibujo + "\n";
     }
-    //parte inferior
+    // parte inferior
     resultado += linea(ancho - 1, dibujo, dibujo);
     return resultado;
   }
-  
-  // 6. DIBUJA UN RECTÁNGULO
-  /**
-   * Dibuja un rectángulo dada la altura, el ancho y el carácter a dibujar
-   *
-   *
-   * @param altura del rectángulo
-   * @param ancho del rectángulo
-   * @param dibujo carácter a dibujar
-   * @return dibujo del rectángulo
-   */
-//  public static String rectangulo(int altura, int ancho, char dibujo) {
-//    String resultado = "";
-//    //parte superior
-//      resultado += linea(ancho - 1, dibujo, dibujo);
-//    resultado += "\n";
-//    //parte central
-//    for (int h = 0; h < altura / 2 + 1; h++) {
-//      resultado += dibujo;
-//      for (int i = 1; i < (ancho - 2); i++) {
-//        resultado += " ";
-//      }
-//      resultado += dibujo + "\n";
-//    }
-//    //parte inferior
-//    resultado += linea(ancho - 1, dibujo, dibujo);
-//    return resultado;
-//  }
-  
-  
-  
-  
-  
-  // XX FUNCIÓN QUE GENERA UN CUADRANTE
+
+
+
+
+  // FUNCIÓN QUE GENERA UN CUADRANTE
   /**
    * Genera el array con las posiciones e imprime el tablero de juego
    *
@@ -199,19 +193,19 @@ public class Figuras {
    */
   public static void cuadrante(int array[][]) {
 
-    //linea superior
+    // linea superior
     System.out.print("╭━━━━━━");
     for (int i = 0; i < array.length - 2; i++) {
       System.out.print("┬━━━━━━");
     }
     System.out.print("┬━━━━━╮\n");
-    //linea datos
+    // linea datos
     for (int i = 0; i < array.length; i++) {
       System.out.print("┃");
       for (int j = 0; j < array.length; j++) {
         System.out.printf(" %3s ┃", array[i][j]);
       }
-      //lineas centrales
+      // lineas centrales
       if (i < array.length - 1) {
         System.out.print("\n├━━━━━━");
         for (int k = 0; k < array.length - 2; k++) {
@@ -219,7 +213,7 @@ public class Figuras {
         }
         System.out.print("┼━━━━━┤\n");
       } else {
-        //linea inferior
+        // linea inferior
         System.out.print("\n╰━━━━━━");
         for (int k = 0; k < array.length - 2; k++) {
           System.out.print("┴━━━━━━");
@@ -227,6 +221,6 @@ public class Figuras {
         System.out.print("┴━━━━━╯\n");
       }
     }
-    
+
   }
 }

@@ -195,6 +195,36 @@ public class Array {
     return r; 
   }
 
+  // FUNCION FILTRAR PRIMOS EN ARRAY
+  /**
+   * Busca en el array original los primos y los guarda en el array resultado
+   * @param a array original
+   * @return array resultado con los primos si no hay devuelve array valor -1
+   */
+  public static int[] filtraPrimos(int a[]) {
+    int[] x = new int[a.length];
+    int tamano = 0;
+    int conteo = 0;
+    for (int i = 0; i < a.length; i++) {
+      if (Matematicas.esPrimo(a[i])) {
+        tamano++;
+        x[conteo++] = a[i];
+      }
+    }
+    int[] r = new int[tamano];
+
+    if (tamano == 0) {
+      int[] c = { -1 };
+      return c;
+    } else {
+      for (int i = 0; i < x.length; i++) {
+        if (x[i] != 0) {
+          r[i] = x[i];
+        }
+      }
+      return r;
+    }
+  }
   
   
   
