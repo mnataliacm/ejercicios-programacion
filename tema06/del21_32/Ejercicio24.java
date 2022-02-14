@@ -13,14 +13,11 @@ public class Ejercicio24 {
     System.out.println("___Programa que elije un dígito___");
     System.out.print("Introduce un número entero positivo: ");
     long numero = Integer.parseInt(System.console().readLine());
-    //variables
-    int corta = 10;
     int conteo = 0;
     long num = numero;
     //contar dígitos
     while (num > 0) {
       num = num / 10;
-      corta *= 10;
       conteo++;
     }
     int elije = (int)(Math.random() * conteo) +1;
