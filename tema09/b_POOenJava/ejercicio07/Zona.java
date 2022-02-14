@@ -4,7 +4,6 @@ public class Zona {
   
   private int totalEntradas;
 
-
   public int getTotalEntradas() {
     return this.totalEntradas;
   }
@@ -21,14 +20,13 @@ public class Zona {
   }
 
   void vendida(int r) {
-    if (this.totalEntradas > 0) {
+    if ((this.totalEntradas > 0) && (this.totalEntradas > r)) {
       this.totalEntradas -= r;
     } else {
-      System.out.println("Lo siento no quedan más entradas para esta zona.");
+      System.out.println("\033[31mLo siento no hay entradas para esta zona. \033[0m");
     }
     
   }
-
 
   @Override
   public String toString() {

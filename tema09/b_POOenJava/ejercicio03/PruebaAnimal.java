@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio03;
+package tema09.b_POOenJava.ejercicio03;
 
 /**
  * Tema 9

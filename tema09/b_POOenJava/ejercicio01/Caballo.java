@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava; 
+package tema09.b_POOenJava.ejercicio01; 
 
 /**
  * Caballo.java
@@ -7,13 +7,13 @@ package ejercicios.tema09.b_POOenJava;
  */
 public class Caballo {
   //atributos
-  private String nombre;
-  private String color;
-  private String sexo;
-  private String raza;
-  private Double peso;
-  private String arre;
-  private int edad;
+  // private String nombre;
+  // private String color;
+  // private String sexo;
+  // private String raza;
+  // private Double peso;
+  // private String arre;
+  // private int edad;
   
   /**
    * Hace que el caballo relinche

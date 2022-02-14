@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava; 
+package tema09.b_POOenJava.ejercicio01; 
 /**
  * Tema 9 
  * Ejercicio 1 probando Caballo.java
@@ -9,7 +9,7 @@ package ejercicios.tema09.b_POOenJava;
  *
  * @author Natalia Castillo Muñoz
  */
-public class Ejercicio01 {
+public class PruebaCaballo {
   
   public static void main(String[] args) {
 

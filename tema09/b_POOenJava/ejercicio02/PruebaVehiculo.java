@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio02;
+package tema09.b_POOenJava.ejercicio02;
 
 import java.util.Scanner;
 
@@ -46,62 +46,59 @@ public class PruebaVehiculo {
       opcion = Integer.parseInt(s.nextLine());
 
       switch (opcion) {
-        case 1 -> {
+        case 1: {
           // System.out.print("¿Cuantos km quieres hacer? ");
           // kmBi = Integer.parseInt(s.nextLine());
           System.out.println();
           bici.recorre(20);
           System.out.println();
         }
-        case 2 -> {
+        case 2: {
           System.out.println();
           bici.caballito();
           System.out.println();
         }
-        case 3 -> {
+        case 3: {
           System.out.println();
           bici.timbre();
           System.out.println();
         }
-        case 4 -> {
+        case 4: {
           // System.out.print("¿Cuantos km quieres hacer? ");
           // kmCo = Integer.parseInt(s.nextLine());
           kangoo.recorre(100);
           System.out.println();
         }
-        case 5 -> {
+        case 5: {
           System.out.println();
           kangoo.quemaRueda();
           System.out.println();
         }
-        case 6 -> {
+        case 6: {
           System.out.println();
           kangoo.claxon();
           System.out.println();
         }
-        case 7 -> {
+        case 7: {
           System.out.println();
           System.out.println("Cuentakilómetros de bici, la bicicleta lleva: ");
           System.out.println(bici.getTotalKm() + " Km");
           System.out.println();
         }
-        case 8 -> {
+        case 8: {
           System.out.println();
           System.out.println("Cuentakilómetros de kangoo, el coche lleva: ");
           System.out.println(kangoo.getTotalKm() + " Km");
           System.out.println();
         }
-        case 9 -> {
+        case 9: {
           System.out.println();
           System.out.println("Los vehículos llevan un total de: ");
           System.out.println(Vehiculo.getTotalKmVeh() + " Km");
           System.out.println();
         }
-        case 10 -> {
-        }
-        default -> {
-        }
       } // switch
-    } // while
+    }
+    s.close(); // while
   }
 }

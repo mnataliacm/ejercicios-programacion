@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio02;
+package tema09.b_POOenJava.ejercicio02;
 
 /**
  * Vehiculo.java

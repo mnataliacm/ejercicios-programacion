@@ -16,15 +16,15 @@ public class Fraccion {
 
   
 
-  public void invierte(Fraccion a) {
-    Fraccion c = new Fraccion();
-    c = a.denominador + "/" + a.numerador;
-    return c;
-  }
+  // public void invierte(Fraccion a) {
+  //   Fraccion c = new Fraccion();
+  //   c = a.denominador + "/" + a.numerador;
+  //   return c;
+  // }
   public void simplifica(Fraccion a) {
     
   }
-  public static void multiplica(Fraccion a, Fraccion b) {
+  public static Fraccion multiplica(Fraccion a, Fraccion b) {
     Fraccion c = new Fraccion();
     c.numerador = a.numerador * b.numerador;
     c.denominador = a.denominador * b.denominador;

@@ -57,5 +57,6 @@ public class ExpocochesCampanillas {
           break;
       }
     }
+    s.close();
   }
 }

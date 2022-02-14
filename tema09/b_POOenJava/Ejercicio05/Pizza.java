@@ -26,7 +26,7 @@ public class Pizza {
     return this.tamano;
   }
 
-  public setTamano(String tamano) {
+  public void setTamano(String tamano) {
     this.tamano = tamano;
   }
 
@@ -39,7 +39,7 @@ public class Pizza {
     }
   }
 
-   @Override
+  @Override
   public String toString() {
     return getNombre() + ", " + getTamano() + ", " + estado;
   }
@@ -69,6 +69,6 @@ public class Pizza {
       Pizza.totalServidas++;
     }
   }
- 
+
 }
 
