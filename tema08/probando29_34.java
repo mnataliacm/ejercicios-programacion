@@ -1,3 +1,4 @@
+package tema08;
 /**
  * Tema 8
  * 
@@ -11,7 +12,7 @@ public class probando29_34 {
 
 		// variables
 		// Scanner s = new Scanner(System.in);
-		int n, x, min, max;
+		//int n, x, min, max;
 
 //		// Genero array aleatorio
 //		int[] array = new int[15];
@@ -113,17 +114,17 @@ public class probando29_34 {
 //		System.out.print(i + " ");
 //	}	
       
- 
-     
+
+    
 		System.out.println("");
 		
-		n = 2;
-		boolean esSilla = funciones.Array.esPuntoDeSilla(array, n);
-		if (esSilla) {
-			System.out.print("El número " + n + " es Punto de Silla");
-		} else {
-			System.out.print("El número " + n + " no es Punto de Silla");
-		}
+		// n = 2;
+		// boolean esSilla = Ejercicio29_34.Array.esPuntoDeSilla(array, n);
+		// if (esSilla) {
+		// 	System.out.print("El número " + n + " es Punto de Silla");
+		// } else {
+		// 	System.out.print("El número " + n + " no es Punto de Silla");
+		// }
 	
 	}
 }

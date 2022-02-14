@@ -21,7 +21,7 @@ public class Ejercicio01_14 {
     int i = 0;
     int f = 0;
     long r = 0;
-    int conteo = 0;
+    //int conteo = 0;
     System.out.print("Introduce un número entero positivo: ");
     n = s.nextInt();
     //CAPICÚA
@@ -102,6 +102,7 @@ public class Ejercicio01_14 {
     i = s.nextInt();
     System.out.println("El resultado es: " + juntaNumeros(n, i));
     System.out.println("");
+    s.close();
   }
   //////////////////////////////////////FUNCIONES///////////////////////////////
   // FUNCIÓN VOLTEAR NÚMERO
@@ -120,7 +121,7 @@ public class Ejercicio01_14 {
       ultimo = numero % 10;
       numeroReves = numeroReves * 10 + ultimo;
       numero /= 10;
-   }
+    }
     return numeroReves;
   }
   
@@ -179,14 +180,14 @@ public class Ejercicio01_14 {
   /**
    * Dada una base y un exponente devuelve la potencia
    *
-   * @param x la base 
+   * @param n la base 
    * @param y el exponente
    * @return la potencia
    */
-  public static long potencia(int x, int y) {
-    int r = x;
+  public static long potencia(long n, int y) {
+    long r = n;
     for (int i = 1; i < y; i++) {
-      r *= x;
+      r *= n;
     }
       return r;
   }
@@ -216,7 +217,7 @@ public class Ejercicio01_14 {
    * @param y posición
    * @return el dígito que hay en esa posicion
    */
-  public static int digitoN(long x, int y) {
+  public static long digitoN(long x, int y) {
     long n = voltea(x);
     while (y > 0) {      
       y--;

@@ -1,5 +1,4 @@
-
-import tema08.Ejercicio01_14;
+package tema08;
 
 /**
  * Tema 8
@@ -18,9 +17,9 @@ public class Ejercicio16 {
     System.out.println("*******************************************");
     System.out.println("Los capicuos son: ");
     for (int i = 1; i < 99999; i++) {
-     if (Ejercicio01_14.esCapicua(i)) {
-       System.out.print(i + " ");
-     }
+      if (Ejercicio01_14.esCapicua(i)) {
+        System.out.print(i + " ");
+      }
     }
     System.out.println();
   }

@@ -79,7 +79,7 @@ public class Ejercicio19 {
         resultado = Long.toString(binarioOctal(hexadecimalBinario(numeroString)));
         break;
       case 10:
-       resultado = Long.toString(binarioDecimal(octalBinario(numero)));
+        resultado = Long.toString(binarioDecimal(octalBinario(numero)));
         break;
       case 11:
         resultado = Long.toString(octalBinario(numero));
@@ -91,6 +91,7 @@ public class Ejercicio19 {
         break;
     }
     System.out.println("El resultado es: " + resultado);
+    s.close();
   }
   //FUNCIONES DE CONVERSION
   // 1 BINARIO A OCTAL
@@ -134,7 +135,7 @@ public class Ejercicio19 {
    * @param binario número entero en binario
    * @return        número inicial pasado a hexadecimal
    */
-   public static String binarioHexadecimal(long binario) {
+  public static String binarioHexadecimal(long binario) {
     String hexadecimal = "";
     String digitosHexa = "0123456789ABCDEF";  
     while (binario > 0) {

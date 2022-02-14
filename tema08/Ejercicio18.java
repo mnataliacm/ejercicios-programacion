@@ -25,6 +25,7 @@ public class Ejercicio18 {
     binario = decimalBinario(decimal);
     System.out.println("Convertido a binario es: " + binario);
     System.out.println();
+    s.close();
   }
   
   public static String decimalBinario(long decimal) {
