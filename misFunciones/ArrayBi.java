@@ -5,7 +5,7 @@ package misFunciones;
  *
  * @author Natalia Castillo Muñoz
  */
-public class ArraysBi {
+public class ArrayBi {
   
   public static void main(String[] args) {
     

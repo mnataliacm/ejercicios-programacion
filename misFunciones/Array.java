@@ -6,7 +6,7 @@ package misFunciones;
  *
  * @author Natalia Castillo Muñoz
  */
-public class Arrays {
+public class Array {
   
 // FUNCIÓN GENERA UN ARRAY
   /**
