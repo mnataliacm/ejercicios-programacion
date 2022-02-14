@@ -47,6 +47,7 @@ public class Ejercicio65 {
           
         }
       }
+    s.close();
     }
     
     public static void repiteCaracter(String c, int n) {
