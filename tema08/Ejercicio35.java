@@ -16,43 +16,26 @@ public class Ejercicio35 {
 		System.out.println("___Conversor de decimal a 'palotes'___");
 		System.out.print("Introduce un número entero positivo: ");
 		int numero = Integer.parseInt(System.console().readLine());
-		// variables
-		int num = numero;
-		int conteo = 0;
-		int num1 = 1;
-		int numeroReves = 0;
-		// Contar dígitos
-		while (num > 0) {
-			num = num / 10;
-			conteo++;
-		}
-		num = numero;
-		// voltear números
-		while (num > 0) {
-			numeroReves = ((numeroReves * 10) + (num % 10));
-			num /= 10;
-		}
-		num = numeroReves;
-		System.out.println(conteo); // comprobar --> quitar luego
-		// convirtiendo a palote
+		System.out.println("El número dado convertido a palotes es: ");
+		System.out.println(convierteEnPalotes(numero));
+	}
+	// FUNCION CONVERTIR EN PALOTES
+	public static String convierteEnPalotes(long n) {
+		String palotes = "";		
+		int conteo = Ejercicio01_14.digitos(n);
+		long numReves = Ejercicio01_14.voltea(n);
+		long numero = numReves;
 		do {
-
-			num1 = num % 10;
-			for (int i = 0; i < num1; i++) {
-				System.out.print("|");
+			numero = numReves % 10;
+			for (int i = 0; i < numero; i++) {
+				palotes += "|";
 			}
 			conteo--;
-			num = num / 10;
+			numReves = numReves / 10;
 			if (conteo > 0) {
-				System.out.print("-");
+				palotes += "-";
 			}
 		} while (conteo > 0);
-		System.out.println();
+		return palotes;
 	}
-
-	// FUNCION CONVERTIR EN PALOTES
-	// public static String convierteEnPalotes(int n) {
-	// int conteo = .arra);
-	// }
-
 }
