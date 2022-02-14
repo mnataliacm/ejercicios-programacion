@@ -1,3 +1,4 @@
+package tema01;
 /**
  * Pinta una pirámide hueca del revés
  *

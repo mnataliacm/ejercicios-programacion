@@ -1,3 +1,4 @@
+package tema01;
 /**
  * Horario de clase
  * 

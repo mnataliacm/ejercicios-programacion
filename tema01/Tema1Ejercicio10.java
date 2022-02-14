@@ -1,4 +1,5 @@
-/**
+
+package tema01;/**
  * dibujo ascii con color
  *
  * @author Natalia Castillo Muñoz
