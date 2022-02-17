@@ -19,6 +19,5 @@ public abstract class Mamifero extends Animal {
   public void setMesesDeGestacion(int mesesDeGestacion) {
     this.mesesDeGestacion = mesesDeGestacion;
   }
-
   
 }
