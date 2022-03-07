@@ -2,7 +2,6 @@ package ejercicios.tema09.b_POOenJava.ejercicio13;
 
 public class CuentaCorriente {
 	
-<<<<<<< HEAD
 	private double saldo;
 	private String numero;
 	
@@ -14,12 +13,11 @@ public class CuentaCorriente {
 			this.numero += (int)(Math.random() * 10);
 		}
 	}
-=======
+
 	private double saldo = 0;;
 	private String numero;
 	
 	//constructor y generar el numero de cuenta
->>>>>>> b2a54ec3f4233123690b79353ef2e56b8e7996f6
 	public CuentaCorriente (double saldo) {
 		this.saldo = saldo;
 		this.numero = "";		
@@ -35,7 +33,6 @@ public class CuentaCorriente {
 		this.saldo = saldo;
 	}
 
-<<<<<<< HEAD
 	void ingreso(double i) {
 		this.saldo += i;
 	}
@@ -55,9 +52,4 @@ public class CuentaCorriente {
 	}
 
 }
-=======
-	
-	
 
-}
->>>>>>> b2a54ec3f4233123690b79353ef2e56b8e7996f6
