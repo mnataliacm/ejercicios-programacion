@@ -12,7 +12,7 @@ public class EjemploNext {
     String apellido1 = s.next();
     String apellido2 = s.next();
 
-    System.out.println(apellido1 + " " + apellido2 + " ", nombre);
-    
+    System.out.println(apellido1 + " " + apellido2 + " ," + nombre);
+    s.close();   
   }
 }

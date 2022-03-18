@@ -23,6 +23,6 @@ public class Ejercicio03 {
     System.out.println("aleatorios: " + numeros);
     Collections.sort(numeros);
     System.out.println("ordenados: " + numeros);
-    
+    s.close();
   }
 }

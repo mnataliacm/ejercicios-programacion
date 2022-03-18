@@ -80,5 +80,6 @@ public class Ejercicio11 {
       System.out.println("Lo siento pero necesitas repasar inglés!");
     }
     System.out.println();
+    s.close();
   }
 }

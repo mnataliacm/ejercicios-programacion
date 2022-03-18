@@ -38,5 +38,6 @@ public class Ejercicio06 {
       }
     } while (conteo > 0);
     System.out.println("\nLo siento, no tiene acceso al área restringida");
+    s.close();
   }
 }

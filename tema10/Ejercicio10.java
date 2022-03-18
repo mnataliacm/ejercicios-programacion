@@ -51,5 +51,6 @@ public class Ejercicio10 {
         System.out.println(traduce + " traducida " + diccionario.get(traduce));
       }
     } while (!traduce.equals(""));
+    s.close();
   }
 }

@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 /**
  * Tema 10
  * Ejercicio 2
@@ -37,9 +38,9 @@ public class Ejercicio02 {
     System.out.println("El menor es: " + min);
 
     System.out.println("____________________");
-    
-    System.out.println("_____Usando ArrayList_____");
 
+    /////////////////////////////////////////////////
+    System.out.println("_____Usando ArrayList_____");
     ArrayList<Integer> numeros = new ArrayList<>();
       for (int i = 0; i < tamano; i++) {
         numeros.add((int)(Math.random() * 100));
@@ -51,13 +52,6 @@ public class Ejercicio02 {
         max = n > max ? n : max;
         min = n < min ? n : min;
       }
-
-      
-      
-
-
-
-
 
   }
 }

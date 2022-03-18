@@ -55,7 +55,7 @@ public class probandoDiscos {
           
           break;
         case 5:
-System.out.println();
+          System.out.println();
           break;
         default:
           break;
@@ -64,7 +64,10 @@ System.out.println();
     } while (opcion != 5);
     System.out.println("Hay: " + conteo + " discos");
     System.out.println(discos);
-
+    s.close();
   }
 
+  private static char[] get(ArrayList<Disco> discos) {
+    return null;
+  }
 }

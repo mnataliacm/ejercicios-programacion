@@ -10,16 +10,13 @@ public class Disco implements Comparable<Disco> {
   private int codigo;
   private String nombre;
 
-
   public Disco() {
   }
 
-  
   public Disco(int codigo, String nombre) {
     this.codigo = codigo;
     this.nombre = nombre;
   }
-  
   
   public int getCodigo() {
     return this.codigo;
@@ -40,11 +37,9 @@ public class Disco implements Comparable<Disco> {
   @Override
   public String toString() {
     return "ID: " + codigo + " Título: " + nombre;
-
   }
 
   public int compareTo(Disco discos) {
     return (this.nombre).compareTo(discos.getNombre());
   }
-
 }
