@@ -4,9 +4,7 @@ package tema09.c_ArraysDeObjetos;
  * Tema 
  * Ejercicio 
  * 
- * Programa que
  * 
- *
  * @author Natalia Castillo Muñoz
  */
 public class Ejercicio01 {
@@ -14,6 +12,9 @@ public class Ejercicio01 {
   public static void main(String[] args) {
 
     // //variables
+
+    //cd[0] = new Disco (1, "Extremoduro", "La Ley Innata", "Rock", 45.06);
+
     // Scanner s = new Scanner (System.in);
     // int num = (int)(Math.random() * 4) + 1;
     // int[] n = new int[10];
