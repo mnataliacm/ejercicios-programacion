@@ -16,8 +16,8 @@ public class Ejercicio06 {
     int conteo = 3;
 
     usuarios.put("Juan", "jjjjj");
-    usuarios.put("María", "12345");
-    usuarios.put("Lucía", "12345");
+    usuarios.put("Maria", "12345");
+    usuarios.put("Lucia", "12345");
 
     do {
       System.out.print("Introduce el nombre de usuario: ");
