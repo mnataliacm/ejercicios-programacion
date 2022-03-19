@@ -17,7 +17,7 @@ public class Ejercicio41 {
       System.out.println();
     }
     System.out.println();
-
+    s.close();
   }
   public static void linea(char c, int r) {
     for (int i = 0; i < r; i++) {
