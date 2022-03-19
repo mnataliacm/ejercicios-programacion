@@ -1,6 +1,6 @@
-package ejercicios.tema09.b_POOenJava.ejercicio15;
+package tema09.b_POOenJava.ejercicio15;
 
-import ejercicios.tema09.b_POOenJava.ejercicio14.FichaDomino;
+import tema09.b_POOenJava.ejercicio14.FichaDomino;
 
 public class GeneraFichasDomino {
 

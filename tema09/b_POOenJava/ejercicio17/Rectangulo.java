@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio17;
+package tema09.b_POOenJava.ejercicio17;
 
 public class Rectangulo {
 

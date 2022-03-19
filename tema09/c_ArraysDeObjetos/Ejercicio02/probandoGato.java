@@ -1,4 +1,4 @@
-package c_ArraysDeObjetos.Ejercicio02;
+package tema09.c_ArraysDeObjetos.Ejercicio02;
 
 import java.util.Scanner;
 

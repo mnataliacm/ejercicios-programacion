@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio14;
+package tema09.b_POOenJava.ejercicio14;
 
 public class Domino {
 

@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio18;
+package tema09.b_POOenJava.ejercicio18;
 
 public class Incidencia {
 	

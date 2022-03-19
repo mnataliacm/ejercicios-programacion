@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio16;
+package tema09.b_POOenJava.ejercicio16;
 
 class Punto {
 

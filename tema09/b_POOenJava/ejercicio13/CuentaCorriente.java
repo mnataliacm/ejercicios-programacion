@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio13;
+package tema09.b_POOenJava.ejercicio13;
 
 public class CuentaCorriente {
 	

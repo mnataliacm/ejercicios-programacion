@@ -1,4 +1,4 @@
-package ejercicios.tema09.b_POOenJava.ejercicio12;
+package tema09.b_POOenJava.ejercicio12;
 
 public abstract class Publicacion {
 
