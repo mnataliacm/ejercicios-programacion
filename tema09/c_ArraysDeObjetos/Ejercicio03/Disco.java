@@ -1,4 +1,4 @@
-package c_ArraysDeObjetos.Ejercicio03;
+package tema09.c_ArraysDeObjetos.Ejercicio03;
 
 public class Disco {
 
@@ -7,6 +7,17 @@ public class Disco {
   private String titulo;
   private String genero;
   private String duracion;
+
+  public Disco() {
+  }
+
+  public Disco(String codigo, String autor, String titulo, String genero, String duracion) {
+    this.codigo = codigo;
+    this.autor = autor;
+    this.titulo = titulo;
+    this.genero = genero;
+    this.duracion = duracion;
+  }
 
   public String getCodigo() {
     return codigo;

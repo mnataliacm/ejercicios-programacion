@@ -1,4 +1,4 @@
-package c_ArraysDeObjetos.Ejercicio03;
+package tema09.c_ArraysDeObjetos.Ejercicio03;
 
 import java.util.Scanner;
 
@@ -17,10 +17,25 @@ public class ColeccionDiscos {
 
     int opcion, hueco = 0, n;
     int limite = 100;
-    String autorD = "", tituloD = "", generoD = "", duracionD = "";
+    String codigoD = "", autorD = "", tituloD = "", generoD = "", duracionD = "";
     Scanner s = new Scanner(System.in);
+    //crear array y llena el array
     Disco[] cd = new Disco[limite];
-    // menu
+    for (int i = 0; i < limite; i++) {
+      cd[i] = new Disco();
+    }
+    
+    //listado inicial de discos
+    cd[0] = new Disco("D1", "Extremoduro", "Ley Innata", "Rock", "46.15");
+    cd[1] = new Disco("D2", "Mecano", "Aidalai", "Pop", "58.45");
+    cd[2] = new Disco("D3", "Frank T", "Frankattack", "Hip-Hop", "60,55");
+    cd[3] = new Disco("D4", "Björk", "Vespertine", "Alternativa", "75,33");
+    cd[4] = new Disco("D5", "The Doors", "L.A. Woman", "Rock", "48,25");
+
+    
+    // CRUD
+    do {
+      // menu
     System.out.println("  Colección de Discos ");
     System.out.println("***********************");
     System.out.println("1. Listado de discos.");
@@ -30,9 +45,7 @@ public class ColeccionDiscos {
     System.out.println("5. Salir del programa.");
     System.out.println("***********************");
     System.out.print("Elige una opción: ");
-    opcion = Integer.parseInt(s.nextLine());
-    // CRUD
-    do {
+    opcion = s.nextInt();
       switch (opcion) {
         case 1:
           System.out.println("\n Lista de Discos");
@@ -40,10 +53,9 @@ public class ColeccionDiscos {
           for (int i = 0; i < cd.length; i++) {
             if (!cd[i].getCodigo().equals("LIBRE")) {
               System.out.println(cd[i]);
-            } else {
-              System.out.println("No hay discos que mostrar");
-            }
+            } 
           }
+          System.out.println("\nNo hay más discos que mostrar\n");
           break;
         case 2:
           System.out.println("\n Disco Nuevo");
@@ -53,32 +65,38 @@ public class ColeccionDiscos {
             hueco++;
           } while (!(cd[hueco].getCodigo().equals("LIBRE")));
           System.out.println("Introduce los datos del nuevo disco: ");
-          System.out.println("Código: ");
-          cd[hueco].setCodigo("D" + hueco);
+          codigoD = "D" + (hueco + 1);
+          cd[hueco].setCodigo(codigoD);
+          System.out.println("Código: " + codigoD);
           System.out.println("Autor: ");
+          autorD = s.nextLine();
           cd[hueco].setAutor(autorD);
           System.out.println("Título: ");
+          tituloD = s.nextLine();
           cd[hueco].setTitulo(tituloD);
           System.out.println("Género: ");
+          generoD = s.nextLine();
           cd[hueco].setGenero(generoD);
           System.out.println("Duración: ");
+          duracionD = s.nextLine();
           cd[hueco].setDuracion(duracionD);
           break;
         case 3:
           System.out.println("\n Modificar Disco");
           System.out.println("+++++++++++++++++");
           System.out.println("Introduce el código del disco que quiere modificar:");
+          codigoD = s.nextLine();
           n = -1;
           do {
             n++;
-          } while (!(cd[n].getCodigo().equals("LIBRE")));
+          } while (!((cd[n].getCodigo()).equals(codigoD)));
 
           System.out.println("Introduce los datos nuevos o pulsa 'enter' para pasar al siguiente: ");
           System.out.println("Autor: " + cd[n].getAutor());
           System.out.print("Nuevo Autor: ");
           autorD = s.nextLine();
           if (!autorD.equals("")) {
-            cd[n].setAutor(autorD);
+            cd[n].setAutor(cd[n].getAutor());
           }
           System.out.println("Título: " + cd[n].getTitulo());
           System.out.print("Nuevo Título: ");
