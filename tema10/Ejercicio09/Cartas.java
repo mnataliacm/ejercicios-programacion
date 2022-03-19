@@ -1,4 +1,4 @@
-package Ejercicio09;
+package tema10.Ejercicio09;
 
 import java.util.Objects;
 

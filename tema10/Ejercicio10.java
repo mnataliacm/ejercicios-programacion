@@ -1,3 +1,5 @@
+package tema10;
+
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -14,7 +16,7 @@ public class Ejercicio10 {
 
     HashMap<String, String> diccionario = new HashMap<String, String>();
     Scanner s = new Scanner(System.in);
-    String espanol, ingles, traduce, traduccion;
+    String traduce;
 
     diccionario.put("españa", "spain");
     diccionario.put("desarrollar", "develop");

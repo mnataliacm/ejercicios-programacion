@@ -70,5 +70,6 @@ public class ColeccionDiscos {
           break;
       }
     } while (opcion != 5);
+    s.close();
   }
 }

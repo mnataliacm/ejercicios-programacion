@@ -1,4 +1,4 @@
-package EjemplosDiccionario;
+package tema10.EjemplosDiccionario;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -19,7 +19,6 @@ public class ejemploDiccionario {
       System.out.print("\nIntroduzca el código de la asignatura (Escribe 0 para salir): ");
       codigoIntroducido = s.nextLine().toUpperCase();
       if (!codigoIntroducido.equals("0")) {
-
         if (!asignaturas.containsKey(codigoIntroducido)) {
           System.out.println("Esa asignatura no está registrada.");
           System.out.print("¿Quieres registrarla? ");
@@ -29,15 +28,13 @@ public class ejemploDiccionario {
             asignaturaNueva = s.nextLine();
             asignaturas.put(codigoIntroducido, asignaturaNueva);
           }
-
         } else {
           System.out.print("Al código " + codigoIntroducido);
           System.out.print(" le corresponde la asignatura ");
           System.out.print(asignaturas.get(codigoIntroducido) + ".\n");
         }
       }
-
     } while (!codigoIntroducido.equals("0"));
-
+    s.close();
   }
 }

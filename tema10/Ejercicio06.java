@@ -1,3 +1,5 @@
+package tema10;
+
 import java.util.HashMap;
 import java.util.Scanner;
 /**
